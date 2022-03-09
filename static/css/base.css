@@ -64,14 +64,14 @@ body {
     text-decoration: none;
 }
 
-.instrument-header > a {
+.instrument-header {
     text-decoration: none;
     color: inherit;
 }
 
-.instrument-header > a:hover {
+.nav-item > .instrument-header:hover {
     background-color: black;
-    color: white;
+    color: white !important;
     border-radius: 10% 10%;
     transition: all 0.5s ease;
 }
