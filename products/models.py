@@ -2,6 +2,12 @@ from django.db import models
 
 
 class Category(models.Model):
+
+    class Meta:
+        """
+        Change spelling on admin page
+        """
+        verbose_name_plural = 'Categories'
     """
     The class for the category model
     """
