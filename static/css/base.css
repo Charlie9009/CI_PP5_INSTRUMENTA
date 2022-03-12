@@ -23,6 +23,10 @@ body {
     text-transform: uppercase;
 }
 
+.font-black {
+    color: black;
+}
+
 .main-logo-link {
     width: fit-content;
 }
