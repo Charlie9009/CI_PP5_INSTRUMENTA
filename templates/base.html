@@ -104,6 +104,11 @@
                     {% include 'includes/main-nav.html' %}
             </nav>
         </div>
+        <div class="row text-center">
+            <div class="col banner">
+                <span class="font-white">Free delivery on orders over ${{ free_delivery_threshold }}!</span>
+            </div>
+        </div>
         </header>
     
         {% if messages %}
@@ -115,6 +120,12 @@
     
         {% block content %}
         {% endblock %}
+        <div class="row text-center">
+            <div class="col banner">
+                    <span class="font-white">We always pack our products carefully!</span>
+                </div>
+            </div>
+        </div>
     
         {% block postloadjs %}
         {% endblock %}

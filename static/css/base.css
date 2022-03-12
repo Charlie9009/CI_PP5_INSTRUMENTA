@@ -76,6 +76,11 @@ body {
     transition: all 0.5s ease;
 }
 
+.banner {
+    background-color: #465362;
+    color: white;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
@@ -96,6 +101,12 @@ body {
     }
 
     .header-container {
-        padding-top: 164px;
+        padding-top: 154px;
     }
-} 
+}
+
+@media (max-width: 991px) {
+    .header-container {
+        padding-top: 92px;
+    }
+}
