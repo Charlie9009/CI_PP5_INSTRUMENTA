@@ -85,6 +85,13 @@ body {
     color: white;
 }
 
+/* Product list */
+
+.product-list-card {
+    border: 1px black dotted;
+    margin-bottom: 10px;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
