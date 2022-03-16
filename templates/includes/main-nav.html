@@ -1,104 +1,64 @@
-<!-- <div class="container collapse navbar-collapse" id="main-nav">
-    <div class="row navbar-nav w-auto mx-auto header-border">
-      <div class="col instrument-header nav-item dropdown">
-        <a href="#">Guitarr</a>
-      </div>
-      <div class="col instrument-header">
-        <a href="#">Drums</a>
-      </div>
-      <div class="col instrument-header">
-        <a href="#">Piano</a>
-      </div>
-      <div class="col instrument-header">
-        <a href="#">Software</a>
-      </div>
-      <div class="col instrument-header">
-        <a href="#">Microphones</a>
-      </div>
-      <div class="col instrument-header">
-        <a href="#">Strings</a>
-      </div>
-      <div class="col instrument-header">
-        <a href="#">Studio</a>
-      </div>
-      <div class="col instrument-header">
-        <a href="#">Wires</a>
-      </div>
-      <div class="col instrument-header">
-        <a href="#">Accessories</a>
-      </div>
-      </div>
-      </div> -->
-
-      <div class="container-fluid">
-        <div class="row collapse navbar-collapse" id="main-nav">
-          <ul class="navbar-nav w-auto mx-auto mb-2 mb-lg-0 header-border nav-justified">
+<div class="container-fluid">
+    <div class="row collapse navbar-collapse" id="main-nav">
+        <ul class="navbar-nav w-auto mx-auto mb-2 mb-lg-0 header-border nav-justified">
             <li class="nav-item dropdown">
               <a class="nav-link instrument-header active" aria-current="page" href="{% url 'products' %}">Products</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link instrument-header active" data-bs-toggle="dropdown" aria-current="page" href="#">Guitarr</a>
-              <div class="dropdown-menu border-0">
-                <a href="" class="dropdown-item text-center">Acoustic</a>
-                <a href="" class="dropdown-item text-center">Electric</a>
-              </div>
+                <a class="nav-link instrument-header active" data-bs-toggle="dropdown" aria-current="page" href="#">Guitar</a>
+                <div class="dropdown-menu border-0">
+                  <a href="{% url 'products' %}?category=acousticguitar" class="dropdown-item text-center">Acoustic</a>
+                  <a href="{% url 'products' %}?category=electricguitar" class="dropdown-item text-center">Electric</a>
+                </div>
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link instrument-header active" data-bs-toggle="dropdown" aria-current="page" href="#">Drums</a>
                 <div class="dropdown-menu border-0">
-                  <a href="" class="dropdown-item text-center">Acoustic</a>
-                  <a href="" class="dropdown-item text-center">Electric</a>
+                  <a href="{% url 'products' %}?category=acousticdrums" class="dropdown-item text-center">Acoustic</a>
+                  <a href="{% url 'products' %}?category=digitaldrums" class="dropdown-item text-center">Digital</a>
                 </div>
-              </li>
-              <li class="nav-item dropdown">
+            </li>
+            <li class="nav-item dropdown">
                 <a class="nav-link instrument-header active" data-bs-toggle="dropdown" aria-current="page" href="#">Piano</a>
                 <div class="dropdown-menu border-0">
-                  <a href="" class="dropdown-item text-center">Acoustic</a>
-                  <a href="" class="dropdown-item text-center">Electric</a>
+                  <a href="{% url 'products' %}?category=acousticpiano" class="dropdown-item text-center">Acoustic</a>
+                  <a href="{% url 'products' %}?category=digitalpiano" class="dropdown-item text-center">Digital</a>
                 </div>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link instrument-header active" data-bs-toggle="dropdown" aria-current="page" href="#">Software</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link instrument-header active" aria-current="page"
+                  href="{% url 'products' %}?category=software">Software</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link instrument-header active" data-bs-toggle="dropdown" aria-current="page"
+                  href="#">Microphones</a>
                 <div class="dropdown-menu border-0">
-                  <a href="" class="dropdown-item text-center">Acoustic</a>
-                  <a href="" class="dropdown-item text-center">Electric</a>
+                  <a href="{% url 'products' %}?category=dynamicmicrophone" class="dropdown-item text-center">Dynamic</a>
+                  <a href="{% url 'products' %}?category=condensormicrophone" class="dropdown-item text-center">Condensor</a>
                 </div>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link instrument-header active" data-bs-toggle="dropdown" aria-current="page" href="#">Microphones</a>
-                <div class="dropdown-menu border-0">
-                  <a href="" class="dropdown-item text-center">Dynamic</a>
-                  <a href="" class="dropdown-item text-center">Condensor</a>
-                </div>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link instrument-header active" data-bs-toggle="dropdown" aria-current="page" href="#">Strings</a>
-                <div class="dropdown-menu border-0">
-                  <a href="" class="dropdown-item text-center">Violin</a>
-                  <a href="" class="dropdown-item text-center">String Bas</a>
-                </div>
-              </li>
-              <li class="nav-item dropdown">
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link instrument-header active" aria-current="page"
+                  href="{% url 'products' %}?category=strings">Strings</a>
+            </li>
+            <li class="nav-item dropdown">
                 <a class="nav-link instrument-header active" data-bs-toggle="dropdown" aria-current="page" href="#">Studio</a>
                 <div class="dropdown-menu border-0">
-                  <a href="" class="dropdown-item text-center">Speakers</a>
-                  <a href="" class="dropdown-item text-center">Audio Interface</a>
+                  <a href="{% url 'products' %}?category=speakers" class="dropdown-item text-center">Speakers</a>
+                  <a href="{% url 'products' %}?category=audiointerface" class="dropdown-item text-center">Audio Interface</a>
                 </div>
-              </li>
-              <li class="nav-item dropdown">
+            </li>
+            <li class="nav-item dropdown">
                 <a class="nav-link instrument-header active" data-bs-toggle="dropdown" aria-current="page" href="#">Wires</a>
                 <div class="dropdown-menu border-0">
-                  <a href="" class="dropdown-item text-center">Instruments</a>
-                  <a href="" class="dropdown-item text-center">Microphone</a>
+                  <a href="{% url 'products' %}?category=instrumentwires" class="dropdown-item text-center">Instrument</a>
+                  <a href="{% url 'products' %}?category=microphonewires" class="dropdown-item text-center">Microphone</a>
                 </div>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link instrument-header active" data-bs-toggle="dropdown" aria-current="page" href="#">Accessories</a>
-                <div class="dropdown-menu border-0">
-                  <a href="" class="dropdown-item text-center">Acoustic</a>
-                  <a href="" class="dropdown-item text-center">Electric</a>
-                </div>
-              </li>
-          </ul>
-        </div>
-      </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link instrument-header active" aria-current="page"
+                  href="{% url 'products' %}?category=accessories">Accessories</a>
+            </li>
+        </ul>
+    </div>
+</div>
