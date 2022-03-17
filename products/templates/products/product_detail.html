@@ -43,6 +43,45 @@
                         <small class="text-muted">No Rating</small>
                     {% endif %}
                     <p class="mt-3">{{ product.description }}</p>
+                    <form class="form" action="" method="POST">
+                        {% csrf_token %}
+                        <div class="form-group">
+                            <div class="input-group input-group-{{ item.item_id }}">
+                                <div class="input-group-prepend">
+                                    <button class="decrement-qty btn btn-sm btn-black rounded-0 decrement-qty_{{ item.item_id }} 
+                                        {% if item.size %}decrement-size_{{ item.item_id }}_{{ item.size }}{% endif %}" 
+                                        data-item_id="{{ item.item_id }}" data-size="{{ item.size }}">
+                                        <span>
+                                            <i class="fas fa-minus fa-sm"></i>
+                                        </span>
+                                    </button>
+                                </div>
+                                <input class="form-control form-control-sm qty_input id_qty_{{ item.item_id }} 
+                                    {% if item.size %}size_{{ item.item_id }}_{{ item.size }}{% endif %}" type="number"
+                                    name="quantity" value="{{ item.quantity }}" min="1" max="99" data-item_id="{{ item.item_id }}" data-size="{{ item.size }}">
+                                <div class="input-group-append">
+                                    <button class="increment-qty btn btn-sm btn-black rounded-0 increment-qty_{{ item.item_id }} 
+                                        {% if item.size %}increment-size_{{ item.item_id }}_{{ item.size }}{% endif %}"
+                                        data-item_id="{{ item.item_id }}" data-size="{{ item.size }}">
+                                        <span>
+                                            <i class="fas fa-plus fa-sm"></i>
+                                        </span>
+                                    </button>
+                                </div>
+
+                                <div class="col-12">
+                                    <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 mt-5">
+                                        <span class="icon">
+                                            <i class="fas fa-chevron-left"></i>
+                                        </span>
+                                        <span class="text-uppercase">Keep Shopping</span>
+                                    </a>
+                                    <input type="submit" class="btn btn-black rounded-0 text-uppercase mt-5" value="Add to Bag">
+                                </div>
+                                <input type="hidden" name="redirect_url" value="{{ request.path }}">
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
