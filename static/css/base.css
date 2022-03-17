@@ -92,6 +92,18 @@ body {
     margin-bottom: 10px;
 }
 
+.back-to-top-button {
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    bottom: 50px;
+    right: 15px;
+}
+
+.back-to-top-link {
+    cursor: pointer;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
