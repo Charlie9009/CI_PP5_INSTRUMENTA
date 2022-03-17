@@ -76,4 +76,14 @@
             </div>
         </div>
     </div>
+    <div class="back-to-top-button shadow-sm rounded-0 border border-black">
+        <a class="back-to-top-link d-flex h-100">
+            <i class="fas fa-arrow-up text-black mx-auto my-auto"></i>
+        </a>	
+    </div>
 {% endblock %}
+
+{% block postloadjs %}
+    {{ block.super }}
+    <script src="{% static 'js/products.js' %}"></script>
+{% endblock %} 
