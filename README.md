@@ -11,3 +11,6 @@ Solve: Removed Bootstrap class fixed-footer.
 
 Bug: Site would not open.
 Solve: Fixed typo in bag/urls.py from name=view to name=view_bag.
+
+Bug: Module not found, could not open server.
+Solve: Fixed typo in context.py to contexts.py.
