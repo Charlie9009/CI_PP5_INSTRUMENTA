@@ -4,13 +4,16 @@
 
 
 Bug: Django took base.html from allauth instead of the top base.html.
-Solve: Remove blank space before file name.
+Fix: Remove blank space before file name.
 
 Bug: Footer was overlapping content.
-Solve: Removed Bootstrap class fixed-footer.
+Fix: Removed Bootstrap class fixed-footer.
 
 Bug: Site would not open.
-Solve: Fixed typo in bag/urls.py from name=view to name=view_bag.
+Fix: Fixed typo in bag/urls.py from name=view to name=view_bag.
 
 Bug: Module not found, could not open server.
-Solve: Fixed typo in context.py to contexts.py.
+Fix: Fixed typo in context.py to contexts.py.
+
+Bug: Background in navbar would not cover the navbar when scrolling.
+Fix: Added constant white background to navbar.
