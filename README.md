@@ -847,6 +847,10 @@ refresh-toc -->
 
     **Fix:** Added constant white background to navbar.
 
+* **Bug:** The grand total, bag total and delivery was not updating correctly.
+    
+    **Fix:** I changed the calculation in contexts.py from adding to multiplying *total += quantity * product.price*
+
 
 ### Known bugs
 
