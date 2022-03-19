@@ -2,5 +2,13 @@ from django.apps import AppConfig
 
 
 class CheckoutConfig(AppConfig):
-    default_auto_field = 'django.db.models.BigAutoField'
+    """
+    Class for the configuration
+    """
     name = 'checkout'
+
+    def ready(self):
+        """
+        Function for importing signals
+        """
+        import checkout.signals
