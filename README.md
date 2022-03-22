@@ -851,6 +851,10 @@ refresh-toc -->
     
     **Fix:** I changed the calculation in contexts.py from adding to multiplying *total += quantity * product.price*
 
+* **Bug:** The body went underneath the header.
+    
+    **Fix:** I added a missing closing bracket in base.css.
+
 
 ### Known bugs
 
