@@ -64,8 +64,8 @@ class Product(models.Model):
         blank=True
     )
     image = models.ImageField(
-        null=False,
-        blank=False
+        null=True,
+        blank=True
     )
 
     def __str__(self):
