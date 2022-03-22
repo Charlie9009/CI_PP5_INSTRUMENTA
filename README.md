@@ -855,6 +855,10 @@ refresh-toc -->
     
     **Fix:** I added a missing closing bracket in base.css.
 
+* **Bug:** Site would not deploy correctly.
+    
+    **Fix:** I added a missing closing for sql database.
+
 
 ### Known bugs
 
