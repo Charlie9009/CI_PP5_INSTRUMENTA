@@ -79,6 +79,13 @@ class Review(models.Model):
     """
     The class for the review model
     """
+    RATING_CHOICE = [
+        (1, '1'),
+        (2, '2'),
+        (3, '3'),
+        (4, '4'),
+        (5, '5'),
+    ]
     user = models.ForeignKey(
         User,
         models.CASCADE
@@ -91,7 +98,8 @@ class Review(models.Model):
         max_length=240
     )
     rating = models.IntegerField(
-        default=0
+        default=0,
+        choices=RATING_CHOICE
     )
     created_on = models.DateTimeField(
         auto_now_add=True
