@@ -10,13 +10,16 @@
 {% endblock %}
 
 {% block content %}
+<!-- All products page -->
     <div class="overlay"></div>
     <div class="container-fluid">
         <div class="row">
             <div class="col-10 offset-1 mt-3">
                 <div class="row mt-1 mb-2">
+                    <!-- How many products found -->
                     <h2 class="col-12 col-md-6 text-center logo-font">Products Found {{ products|length }}</h2>
                     <div class="col-10 col-md-6 my-auto d-flex text-center justify-content-center">
+                        <!-- Sorting button -->
                         <div class="sort-select-wrapper w-50">
                             <select id="sort-selector" class="custom-select custom-select-sm rounded-0 border border-{% if current_sorting != 'None_None' %}info{% else %}black{% endif %}">
                                 <option value="reset" {% if current_sorting == 'None_None' %}selected{% endif %}>Sort by...</option>
@@ -33,28 +36,34 @@
                     </div>
                 </div>
                 <hr class="w-100 mb-3">
-            </div>
+                <!-- Products -->
                 <div class="row">
                     {% for product in products %}
                         <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
                             <div class="card h-100 product-list-card">
+                                <!-- One Product, all info in this card -->
                                 {% if product.image %}
+                                <!-- Image -->
                                 <a href="{% url 'product_detail' product.id %}">
                                     <img class="card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}">
                                 </a>
                                 {% else %}
-                                <a href="">
+                                <a href="{% url 'product_detail' product.id %}">
                                     <img class="card-img-top img-fluid" src="{% static 'media/noimage.png' %}" alt="{{ product.name }}">
                                 </a>
                                 {% endif %}
+                                <!-- Product name -->
                                 <div class="card-body pb-0 text-center">
                                     <p class="mb-0">{{ product.name }}</p>
                                 </div>
+                                <!-- Product info -->
                                 <div class="bg-white pt-0 border-0 text-center">
                                     <div class="row">
                                         <div class="col">
+                                            <!-- Product price -->
                                             <p class="lead mb-0 text-center font-weight-bold">${{ product.price }}</p>
                                             {% if product.category %}
+                                            <!-- Product category -->
                                             <p class="small mt-1 mb-0">
                                                 <a class="text-muted" href="{% url 'products' %}?category={{ product.category.name }}">
                                                     <i class="fas fa-tag mr-1"></i>{{ product.category.friendly_name }}
@@ -62,11 +71,13 @@
                                             </p>
                                             {% endif %}
                                             {% if product.rating %}
+                                            <!-- Product rating -->
                                                 <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ product.rating }} / 5</small>
                                             {% else %}
                                                 <small class="text-muted">No Rating Yet</small>
                                             {% endif %}
                                             {% if request.user.is_superuser %}
+                                            <!-- Superuser buttons for edit and delete -->
                                                 <small class="ml-3">
                                                     <a href="{% url 'edit_product' product.id %}">Edit</a> | 
                                                     <a class="text-danger" href="{% url 'delete_product' product.id %}">Delete</a>
@@ -82,6 +93,7 @@
             </div>
         </div>
     </div>
+    <!-- Back to top button -->
     <div class="back-to-top-button shadow-sm rounded-0 border border-black">
         <a class="back-to-top-link d-flex h-100">
             <i class="fas fa-arrow-up text-black mx-auto my-auto"></i>
