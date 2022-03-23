@@ -920,7 +920,9 @@ refresh-toc -->
 
 ### Numerous videos, sites and articles was used to create this site.
 
-* 
+* (This video was used for building rating and comments)[https://www.youtube.com/watch?v=OvTs8BMLb7o]
+(This video was also used)[https://www.youtube.com/watch?v=MZwKoi0wu2Q]
+(This site was used for the checkboxes)[https://cdf.9vo.lt/1.11/django.forms.widgets/RadioSelect.html]
 
 ## Acknowledgement
 
