@@ -1,6 +1,7 @@
 from django import forms
 from .widgets import CustomClearableFileInput
 from .models import Product, Category, Review
+from django.forms import RadioSelect
 
 
 class ProductForm(forms.ModelForm):
@@ -40,3 +41,7 @@ class ReviewForm(forms.ModelForm):
         """
         model = Review
         fields = ('rating', 'comment',)
+
+        widgets = {
+            'rating': forms.RadioSelect(),
+        }

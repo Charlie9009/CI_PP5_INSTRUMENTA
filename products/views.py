@@ -155,7 +155,7 @@ def review(request, product_id):
     """
     product = get_object_or_404(Product, pk=product_id)
     if request.method == 'POST':
-        review_form = ReviewForm(request.POST)
+        review_form = ReviewForm(request.POST, use_required_attribute=False)
 
         if review_form.is_valid():
             commented = Review.objects.filter(product=product, user=request.user)
