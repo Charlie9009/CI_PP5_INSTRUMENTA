@@ -104,6 +104,12 @@
                                 <p class="text-black font-weight-bold mb-2 mt-2">Posted by: {{ comment.user }} on {{ comment.created_on }}</p>
                                 <p class="mb-2 mt-3">Rating: {{ comment.rating }} </p>
                                 <p class="mb-2 mt-3">Review Text: {{ comment.comment }}</p>
+                                {% if request.user == comment.user %}
+                                <form action="{% url 'delete_review' product.id %}" method="POST">
+                                    {% csrf_token %}
+                                    <button type="submit" class="btn btn-danger">Delete</button>
+                                </form>
+                                {% endif %}
                             </div>
                             {% endfor %}
                         </div>
