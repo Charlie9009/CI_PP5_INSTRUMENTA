@@ -1,7 +1,7 @@
 from django import forms
+from django.forms import RadioSelect
 from .widgets import CustomClearableFileInput
 from .models import Product, Category, Review
-from django.forms import RadioSelect
 
 
 class ProductForm(forms.ModelForm):
