@@ -180,3 +180,18 @@ def add_review(request, product_id):
                        'Something went wrong.'
                        'Please try adding your review again.')
     return redirect(reverse('product_detail', args=[product.id]))
+
+
+
+def delete_review(request, product_id):
+    """ Delete a review from a product """
+    product = get_object_or_404(Product, pk=product_id)
+    comment = get_object_or_404(Review, product=product, user=request.user)
+    if request.user == comment.user:
+        comment.delete()
+        messages.success(request, 'Review deleted!')
+    else:
+        messages.error(request, 'Sorry, This action is not possible')
+        return redirect(reverse('home'))
+
+    return redirect(reverse('product_detail', args=[product.id]))
