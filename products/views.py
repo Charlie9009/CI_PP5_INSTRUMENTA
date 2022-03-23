@@ -63,9 +63,13 @@ def product_detail(request, product_id):
     """ A view to return the product_detail page, a single product. """
 
     product = get_object_or_404(Product, pk=product_id)
+    review_form = ReviewForm(data=request.POST)
+    comments = Review.objects.filter(product=product).order_by('-created_on')
 
     context = {
         'product': product,
+        'review_form': review_form,
+        'comments': comments,
     }
 
     return render(request, 'products/product_detail.html', context)
