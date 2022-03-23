@@ -149,7 +149,7 @@ def delete_product(request, product_id):
     return redirect(reverse('products'))
 
 
-def review(request, product_id):
+def add_review(request, product_id):
     """
     A view to add a review to a product
     """
@@ -158,9 +158,12 @@ def review(request, product_id):
         review_form = ReviewForm(request.POST, use_required_attribute=False)
 
         if review_form.is_valid():
-            commented = Review.objects.filter(product=product, user=request.user)
+            commented = Review.objects.filter(product=product,
+                                              user=request.user)
             if commented:
-                messages.error(request, 'You have already reviewed this product!')
+                messages.error(
+                               request,
+                               'You have already reviewed this product!')
             else:
                 Review.objects.create(
                         product=product,
@@ -172,5 +175,8 @@ def review(request, product_id):
 
             return redirect(reverse('product_detail', args=[product.id]))
 
-        messages.error(request, 'Something went wrong. Please try adding your review again.')
+        messages.error(
+                       request,
+                       'Something went wrong.'
+                       'Please try adding your review again.')
     return redirect(reverse('product_detail', args=[product.id]))
