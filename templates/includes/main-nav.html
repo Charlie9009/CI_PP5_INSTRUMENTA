@@ -1,73 +1,91 @@
+<!-- Instrument categories / Nav bar  -->
 <div class="container-fluid">
     <div class="row collapse navbar-collapse" id="main-nav">
         <ul class="navbar-nav w-auto mx-auto mb-2 mb-lg-0 header-border nav-justified">
-          <li class="nav-item d-block d-md-none">
-            <a class="nav-link instrument-header active" aria-current="page" href="{% url 'home' %}">Home</a>
-          </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link instrument-header active" aria-current="page" href="{% url 'products' %}">Products</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link instrument-header active" data-bs-toggle="dropdown" aria-current="page" href="#">Guitar</a>
-                <div class="dropdown-menu border-0">
-                  <a href="{% url 'products' %}?category=acousticguitar" class="dropdown-item text-center">Acoustic</a>
-                  <a href="{% url 'products' %}?category=electricguitar" class="dropdown-item text-center">Electric</a>
-                  <a href="{% url 'products' %}?category=acousticguitar,electricguitar" class="dropdown-item text-center">All Guitars</a>
-                </div>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link instrument-header active" data-bs-toggle="dropdown" aria-current="page" href="#">Drums</a>
-                <div class="dropdown-menu border-0">
-                  <a href="{% url 'products' %}?category=acousticdrums" class="dropdown-item text-center">Acoustic</a>
-                  <a href="{% url 'products' %}?category=digitaldrums" class="dropdown-item text-center">Digital</a>
-                  <a href="{% url 'products' %}?category=acousticdrums,digitaldrums" class="dropdown-item text-center">All Drums</a>
-                </div>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link instrument-header active" data-bs-toggle="dropdown" aria-current="page" href="#">Piano</a>
-                <div class="dropdown-menu border-0">
-                  <a href="{% url 'products' %}?category=acousticpiano" class="dropdown-item text-center">Acoustic</a>
-                  <a href="{% url 'products' %}?category=digitalpiano" class="dropdown-item text-center">Digital</a>
-                  <a href="{% url 'products' %}?category=acousticpiano,digitalpiano" class="dropdown-item text-center">All Pianos</a>
-                </div>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link instrument-header active" aria-current="page"
-                  href="{% url 'products' %}?category=software">Software</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link instrument-header active" data-bs-toggle="dropdown" aria-current="page"
-                  href="#">Microphones</a>
-                <div class="dropdown-menu border-0">
-                  <a href="{% url 'products' %}?category=dynamicmicrophone" class="dropdown-item text-center">Dynamic</a>
-                  <a href="{% url 'products' %}?category=condensormicrophone" class="dropdown-item text-center">Condensor</a>
-                  <a href="{% url 'products' %}?category=dynamicmicrophone,condensormicrophone" class="dropdown-item text-center">All Microphones</a>
-                </div>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link instrument-header active" aria-current="page"
-                  href="{% url 'products' %}?category=strings">Strings</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link instrument-header active" data-bs-toggle="dropdown" aria-current="page" href="#">Studio</a>
-                <div class="dropdown-menu border-0">
-                  <a href="{% url 'products' %}?category=speakers" class="dropdown-item text-center">Speakers</a>
-                  <a href="{% url 'products' %}?category=audiointerface" class="dropdown-item text-center">Audio Interface</a>
-                  <a href="{% url 'products' %}?category=speakers,audiointerface" class="dropdown-item text-center">All Studio Equipment</a>
-                </div>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link instrument-header active" data-bs-toggle="dropdown" aria-current="page" href="#">Wires</a>
-                <div class="dropdown-menu border-0">
-                  <a href="{% url 'products' %}?category=instrumentwires" class="dropdown-item text-center">Instrument</a>
-                  <a href="{% url 'products' %}?category=microphonewires" class="dropdown-item text-center">Microphone</a>
-                  <a href="{% url 'products' %}?category=instrumentwires,microphonewires" class="dropdown-item text-center">All Wires</a>
-                </div>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link instrument-header active" aria-current="page"
-                  href="{% url 'products' %}?category=accessories">Accessories</a>
-            </li>
-        </ul>
-    </div>
+			<!-- Home link -->
+			<li class="nav-item d-block d-md-none">
+				<a class="nav-link instrument-header active" aria-current="page" href="{% url 'home' %}">Home</a>
+			</li>
+			<!-- All products link -->
+			<li class="nav-item dropdown">
+				<a class="nav-link instrument-header active" aria-current="page" href="{% url 'products' %}">Products</a>
+			</li>
+			<!-- Guitar dropdown link -->
+			<li class="nav-item dropdown">
+				<a class="nav-link instrument-header active" data-bs-toggle="dropdown" aria-current="page" href="#">Guitar</a>
+				<!-- Guitar links -->
+				<div class="dropdown-menu border-0">
+					<a href="{% url 'products' %}?category=acousticguitar" class="dropdown-item text-center">Acoustic</a>
+					<a href="{% url 'products' %}?category=electricguitar" class="dropdown-item text-center">Electric</a>
+					<a href="{% url 'products' %}?category=acousticguitar,electricguitar" class="dropdown-item text-center">All Guitars</a>
+				</div>
+			</li>
+			<!-- Drums dropdown link -->
+			<li class="nav-item dropdown">
+				<a class="nav-link instrument-header active" data-bs-toggle="dropdown" aria-current="page" href="#">Drums</a>
+				<!-- Drums links -->
+				<div class="dropdown-menu border-0">
+					<a href="{% url 'products' %}?category=acousticdrums" class="dropdown-item text-center">Acoustic</a>
+					<a href="{% url 'products' %}?category=digitaldrums" class="dropdown-item text-center">Digital</a>
+					<a href="{% url 'products' %}?category=acousticdrums,digitaldrums" class="dropdown-item text-center">All Drums</a>
+				</div>
+			</li>
+			<!-- Piano dropdown link -->
+			<li class="nav-item dropdown">
+				<a class="nav-link instrument-header active" data-bs-toggle="dropdown" aria-current="page" href="#">Piano</a>
+				<!-- Piano links -->
+				<div class="dropdown-menu border-0">
+					<a href="{% url 'products' %}?category=acousticpiano" class="dropdown-item text-center">Acoustic</a>
+					<a href="{% url 'products' %}?category=digitalpiano" class="dropdown-item text-center">Digital</a>
+					<a href="{% url 'products' %}?category=acousticpiano,digitalpiano" class="dropdown-item text-center">All Pianos</a>
+				</div>
+			</li>
+			<!-- Software link -->
+			<li class="nav-item dropdown">
+				<a class="nav-link instrument-header active" aria-current="page"
+				href="{% url 'products' %}?category=software">Software</a>
+			</li>
+			<!-- Microphone dropdown link -->
+			<li class="nav-item dropdown">
+				<a class="nav-link instrument-header active" data-bs-toggle="dropdown" aria-current="page"
+				href="#">Microphones</a>
+				<!-- Microphone link -->
+				<div class="dropdown-menu border-0">
+					<a href="{% url 'products' %}?category=dynamicmicrophone" class="dropdown-item text-center">Dynamic</a>
+					<a href="{% url 'products' %}?category=condensormicrophone" class="dropdown-item text-center">Condensor</a>
+					<a href="{% url 'products' %}?category=dynamicmicrophone,condensormicrophone" class="dropdown-item text-center">All Microphones</a>
+				</div>
+			</li>
+			<!-- String link -->
+			<li class="nav-item dropdown">
+				<a class="nav-link instrument-header active" aria-current="page"
+				href="{% url 'products' %}?category=strings">Strings</a>
+			</li>
+			<!-- Studio dropdown link -->
+			<li class="nav-item dropdown">
+				<a class="nav-link instrument-header active" data-bs-toggle="dropdown" aria-current="page" href="#">Studio</a>
+				<!-- Studio links -->
+				<div class="dropdown-menu border-0">
+					<a href="{% url 'products' %}?category=speakers" class="dropdown-item text-center">Speakers</a>
+					<a href="{% url 'products' %}?category=audiointerface" class="dropdown-item text-center">Audio Interface</a>
+					<a href="{% url 'products' %}?category=speakers,audiointerface" class="dropdown-item text-center">All Studio Equipment</a>
+				</div>
+			</li>
+			<!-- Wires dropdown link -->
+			<li class="nav-item dropdown">
+				<a class="nav-link instrument-header active" data-bs-toggle="dropdown" aria-current="page" href="#">Wires</a>
+				<!-- Wires links -->
+				<div class="dropdown-menu border-0">
+					<a href="{% url 'products' %}?category=instrumentwires" class="dropdown-item text-center">Instrument</a>
+					<a href="{% url 'products' %}?category=microphonewires" class="dropdown-item text-center">Microphone</a>
+					<a href="{% url 'products' %}?category=instrumentwires,microphonewires" class="dropdown-item text-center">All Wires</a>
+				</div>
+			</li>
+			<!-- Accessories link -->
+			<li class="nav-item dropdown">
+				<a class="nav-link instrument-header active" aria-current="page"
+				href="{% url 'products' %}?category=accessories">Accessories</a>
+			</li>
+		</ul>
+	</div>
 </div>
