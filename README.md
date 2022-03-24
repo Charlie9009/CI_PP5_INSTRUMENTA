@@ -65,13 +65,13 @@ refresh-toc -->
 
 ## Project goals
 
-* The goal of this project is for the site owner to practice Django and to create a News Blog for other users.
+* The goal of this project is for the site owner to practice Django and implement a working ecommerce site.
 
 ## User experience
 
 ### Target audience
 
-* This site is targeted towards people who would like to share news.
+* This site is targeted towards musicians and beginners.
 
 ### User stories
 
@@ -118,7 +118,7 @@ refresh-toc -->
 
 #### Fonts
 
-* I chose the font [*Roboto*](https://fonts.google.com/specimen/Roboto) as it felt neutral and did not stick out.
+* I chose the font [*Prompt*](https://fonts.google.com/specimen/Prompt?query=prompt) as it felt right for my page.
 
 ### Wireframes
 
@@ -186,11 +186,11 @@ refresh-toc -->
 
 ### Database diagram
 
-* The database has three models;
-    * Post
-    * Comment
-    * Question
-* Post and Comment have a many to one relationship and also uses the imported *User* class model for username and passwords.
+* The database has multiple models;
+    * 
+    * **Review** / Custom model
+    * **Question** / Custom model
+
 
 * Question does not have any relationship with the other models.
 <details><summary>Database Diagram</summary>
@@ -920,9 +920,9 @@ refresh-toc -->
 
 ### Numerous videos, sites and articles was used to create this site.
 
-* (This video was used for building rating and comments)[https://www.youtube.com/watch?v=OvTs8BMLb7o]
-(This video was also used)[https://www.youtube.com/watch?v=MZwKoi0wu2Q]
-(This site was used for the checkboxes)[https://cdf.9vo.lt/1.11/django.forms.widgets/RadioSelect.html]
+* [This video was used for building rating and comments](https://www.youtube.com/watch?v=OvTs8BMLb7o).<br>
+[This video was also used](https://www.youtube.com/watch?v=MZwKoi0wu2Q).<br>
+[This site was used for the checkboxes](https://cdf.9vo.lt/1.11/django.forms.widgets/RadioSelect.html).<br>
 
 ## Acknowledgement
 
