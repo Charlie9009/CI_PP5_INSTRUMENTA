@@ -1,4 +1,4 @@
-from django.shortcuts import render, get_object_or_404, redirect, reverse
+from django.shortcuts import render, redirect, reverse
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from .models import Question
@@ -10,7 +10,7 @@ def questions(request):
     """
     A view to add a question
     """
-    question = Question.objects.all()
+    question = Question.objects.all().order_by('-created_on')
     question_form = QuestionForm(request.POST)
     if request.method == 'POST':
         if question_form.is_valid():
@@ -21,10 +21,7 @@ def questions(request):
                 )
             messages.success(request, 'Thank you for your question!')
         else:
-            messages.error(
-                            request,
-                            'Something went wrong')
-
+            messages.error(request, 'Something went wrong')
             return redirect(reverse('questions'))
 
     template = 'questions/questions.html'

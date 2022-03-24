@@ -19,12 +19,6 @@
             <p class="text-black font-weight-bold mb-2 mt-2">Posted by: {{ question.user }} on {{ question.created_on }}</p>
             <p class="mb-2 mt-3">Category: {{ question.question_categories }} </p>
             <p class="mb-2 mt-3">Question: {{ question.question_comment }}</p>
-            {% if request.user == question.user %}
-            <form action="" method="POST">
-                {% csrf_token %}
-                <button type="submit" class="btn btn-danger">Delete</button>
-            </form>
-            {% endif %}
         </div>
         {% endfor %}
     </div>
@@ -33,16 +27,16 @@
 <div class="row">
     <div class="col-lg-6 col-md-12 mt-2 pb-3">
         {% if request.user.is_authenticated %}
-        <h3 class="text-uppercase">Add a review</h3>
-        <form class="form" method="POST" action="">
+        <h3 class="text-uppercase">Add a question</h3>
+        <form class="form" method="POST" action="{% url 'questions' %}">
             {% csrf_token %}
             {{ question_form|crispy }}
-            <button class="btn btn-dark" type="submit">Add Comment</button>
+            <button class="btn btn-dark" type="submit">Add Question</button>
         </form>
         {% else %}
         <div>
             <!-- Links if not logged in -->
-            <p>You cannot comment if you ar not logged in</p>
+            <p>You cannot add a question if you are not logged in</p>
             <a href="{% url 'account_signup' %}">Sign Up</a>
             <a href="{% url 'account_login' %}">Login</a>
         </div>
