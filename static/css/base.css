@@ -132,6 +132,10 @@ a.category-badge > span.badge:hover {
 
 /* Product list */
 
+.all-products {
+    margin-bottom: 10px;
+}
+
 .product-list-card {
     border: 1px black dotted;
     margin-bottom: 10px;
