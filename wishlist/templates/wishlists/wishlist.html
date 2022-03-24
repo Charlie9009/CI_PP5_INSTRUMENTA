@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% load static %}
+{% block extra_title %}Wishlist{% endblock %}
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+{% block content %}
+<div class="overlay"></div>
+    <div class="container-fluid px-3">
+        <div class="row">
+            <div class="col-12 col-sm-6 p-4 my-auto">
+                <h1 class="font-black-bg">Wishlist</h1>
+                <p class="font-black-bg">Here is your wishlist saved</p>
+            </div>
+        </div>
+        
+{% endblock %}
+{% block postloadjs %}
+    {{ block.super }}
+
+{% endblock %}
