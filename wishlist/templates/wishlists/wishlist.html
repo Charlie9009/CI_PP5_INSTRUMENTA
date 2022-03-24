@@ -15,13 +15,14 @@
 <div class="overlay"></div>
     <div class="container-fluid px-3">
         <div class="row">
-            <div class="col-12 col-sm-6 p-4 my-auto">
-                <h1 class="font-black-bg">Wishlist</h1>
+            <div class="col-10 offset-1 mt-3">
+                <h1 class="font-black-bg text-center text-uppercase">Wishlist</h1>
                 {% if wishlist_items %}
-                <p class="font-black-bg">Here is your wishlist saved</p>
+                <p class="font-black-bg text-center">This is your wishlist!</p>
+                <hr>
                 <div class="row">
                     {% for wishlist in wishlist_items %}
-                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 all-products">
+                        <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3 all-products">
                             <div class="card h-100 product-list-card">
                                 <!-- One Product, all info in this card -->
                                 {% if wishlist.image %}
@@ -73,7 +74,7 @@
                     {% endfor %}
                 </div>
                 {% else %}
-                <p>ITS EMPTY</p>
+                <h2 class="text-center">You dont have any items in your wishlist.</h2>
                 {% endif %}
             </div>
         </div>
