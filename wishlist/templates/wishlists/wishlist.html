@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 {% load static %}
 {% block extra_title %}Wishlist{% endblock %}
+
 {% block page_header %}
     <div class="container header-container">
         <div class="row">
@@ -8,16 +9,75 @@
         </div>
     </div>
 {% endblock %}
+
 {% block content %}
+<!-- Wishlist -->
 <div class="overlay"></div>
     <div class="container-fluid px-3">
         <div class="row">
             <div class="col-12 col-sm-6 p-4 my-auto">
                 <h1 class="font-black-bg">Wishlist</h1>
+                {% if wishlist_items %}
                 <p class="font-black-bg">Here is your wishlist saved</p>
+                <div class="row">
+                    {% for wishlist in wishlist_items %}
+                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 all-products">
+                            <div class="card h-100 product-list-card">
+                                <!-- One Product, all info in this card -->
+                                {% if wishlist.image %}
+                                <!-- Image -->
+                                <a href="{% url 'product_detail' wishlist.id %}">
+                                    <img class="card-img-top img-fluid" src="{{ wishlist.image.url }}" alt="{{ product.name }}">
+                                </a>
+                                {% else %}
+                                <a href="{% url 'product_detail' wishlist.id %}">
+                                    <img class="card-img-top img-fluid" src="{% static 'media/noimage.png' %}" alt="{{ wishlist.name }}">
+                                </a>
+                                {% endif %}
+                                <!-- Product name -->
+                                <div class="card-body pb-0 text-center">
+                                    <p class="mb-0">{{ wishlist.name }}</p>
+                                </div>
+                                <!-- Product info -->
+                                <div class="bg-white pt-0 border-0 text-center">
+                                    <div class="row">
+                                        <div class="col">
+                                            <!-- Product price -->
+                                            <p class="lead mb-0 text-center font-weight-bold">${{ wishlist.price }}</p>
+                                            {% if wishlist.category %}
+                                            <!-- Product category -->
+                                            <p class="small mt-1 mb-0">
+                                                <a class="text-muted" href="{% url 'products' %}?category={{ wishlist.category.name }}">
+                                                    <i class="fas fa-tag mr-1"></i>{{ product.category.friendly_name }}
+                                                </a>
+                                            </p>
+                                            {% endif %}
+                                            {% if wishlist.rating %}
+                                            <!-- Product rating -->
+                                                <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ wishlist.rating }} / 5</small>
+                                            {% else %}
+                                                <small class="text-muted">No Rating Yet</small>
+                                            {% endif %}
+                                            {% if request.user.is_superuser %}
+                                            <!-- Superuser buttons for edit and delete -->
+                                                <small class="ml-3">
+                                                    <a href="{% url 'edit_product' wishlist.id %}">Edit</a> | 
+                                                    <a class="text-danger" href="{% url 'delete_product' wishlist.id %}">Delete</a>
+                                                </small>
+                                            {% endif %}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+                {% else %}
+                <p>ITS EMPTY</p>
+                {% endif %}
             </div>
         </div>
-        
+    </div>
 {% endblock %}
 {% block postloadjs %}
     {{ block.super }}
