@@ -11,16 +11,16 @@
 
 {% block content %}
 <div class="row">
-    <div class="col-12">
-        {% for comment in comments %}
+    <div class="col-12 text-center">
+        {% for question in question %}
         <!-- Show all questions -->
         <div class="shadow-sm p-2 mb-4 bg-grey rounded">
             <!-- Question info -->
-            <p class="text-black font-weight-bold mb-2 mt-2">Posted by: {{ comment.user }} on {{ comment.created_on }}</p>
-            <p class="mb-2 mt-3">Rating: {{ comment.rating }} </p>
-            <p class="mb-2 mt-3">Review Text: {{ comment.comment }}</p>
-            {% if request.user == comment.user %}
-            <form action="{% url 'delete_review' product.id %}" method="POST">
+            <p class="text-black font-weight-bold mb-2 mt-2">Posted by: {{ question.user }} on {{ question.created_on }}</p>
+            <p class="mb-2 mt-3">Category: {{ question.question_categories }} </p>
+            <p class="mb-2 mt-3">Question: {{ question.question_comment }}</p>
+            {% if request.user == question.user %}
+            <form action="" method="POST">
                 {% csrf_token %}
                 <button type="submit" class="btn btn-danger">Delete</button>
             </form>
@@ -34,9 +34,9 @@
     <div class="col-lg-6 col-md-12 mt-2 pb-3">
         {% if request.user.is_authenticated %}
         <h3 class="text-uppercase">Add a review</h3>
-        <form class="form" method="POST" action="{% url 'add_review' product.id %}">
+        <form class="form" method="POST" action="">
             {% csrf_token %}
-            {{ review_form|crispy }}
+            {{ question_form|crispy }}
             <button class="btn btn-dark" type="submit">Add Comment</button>
         </form>
         {% else %}
