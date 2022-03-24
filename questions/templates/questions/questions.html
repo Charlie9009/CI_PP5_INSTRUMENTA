@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% load static %}
-
+{% block extra_title %}Questions{% endblock %}
 {% block page_header %}
 <div class="container header-container">
     <div class="row">
@@ -10,6 +10,8 @@
 {% endblock %}
 
 {% block content %}
+<h1 class="text-center">Questions</h1>
+<hr>
 <div class="row">
     <div class="col-12 text-center">
         {% for question in question %}
@@ -24,8 +26,8 @@
     </div>
 </div>
 <!-- Question Form -->
-<div class="row">
-    <div class="col-lg-6 col-md-12 mt-2 pb-3">
+<div class="row d-flex justify-content-center">
+    <div class="col-lg-6 col-md-12 mt-2 pb-3 text-center">
         {% if request.user.is_authenticated %}
         <h3 class="text-uppercase">Add a question</h3>
         <form class="form" method="POST" action="{% url 'questions' %}">
