@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% load static %}
-
+{% block extra_title %}Product Detail{% endblock %}
 {% block page_header %}
 <div class="container header-container">
     <div class="row">
@@ -17,14 +17,14 @@
         <div class="col-12 col-md-6 col-lg-4 offset-lg-2">
             <div class="image-container my-5">
                 {% if product.image %}
-                <!-- Product image -->
-                <a href="{{ product.image.url }}" target="_blank">
-                    <img class="card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}">
-                </a>
+                    <!-- Product image -->
+                    <a href="{{ product.image.url }}" target="_blank">
+                        <img class="card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}">
+                    </a>
                 {% else %}
-                <a href="{{ MEDIA_URL }}noimage.png">
-                    <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}">
-                </a>
+                    <a href="{{ MEDIA_URL }}noimage.png">
+                        <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}">
+                    </a>
                 {% endif %}
             </div>
         </div>
@@ -36,25 +36,25 @@
                 <!-- Product price -->
                 <p class="lead mb-0 text-left font-weight-bold">${{ product.price }}</p>
                 {% if product.category %}
-                <!-- Product category -->
-                <p class="small mt-1 mb-0">
-                    <a class="text-muted" href="{% url 'products' %}?category={{ product.category.name }}">
-                        <i class="fas fa-tag mr-1"></i>{{ product.category.friendly_name }}
-                    </a>
-                </p>
+                    <!-- Product category -->
+                    <p class="small mt-1 mb-0">
+                        <a class="text-muted" href="{% url 'products' %}?category={{ product.category.name }}">
+                            <i class="fas fa-tag mr-1"></i>{{ product.category.friendly_name }}
+                        </a>
+                    </p>
                 {% endif %}
                 {% if product.rating %}
-                <!-- Product rating -->
-                <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ product.rating }} / 5</small>
+                    <!-- Product rating -->
+                    <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ product.rating }} / 5</small>
                 {% else %}
-                <small class="text-muted">No Rating</small>
+                    <small class="text-muted">No Rating</small>
                 {% endif %}
                 {% if request.user.is_superuser %}
-                <!-- Superuser buttons for edit and delete -->
-                <small class="ml-3">
-                    <a href="{% url 'edit_product' product.id %}">Edit</a> |
-                    <a class="text-danger" href="{% url 'delete_product' product.id %}">Delete</a>
-                </small>
+                    <!-- Superuser buttons for edit and delete -->
+                    <small class="ml-3">
+                        <a href="{% url 'edit_product' product.id %}">Edit</a> |
+                        <a class="text-danger" href="{% url 'delete_product' product.id %}">Delete</a>
+                    </small>
                 {% endif %}
                 <br>
                 <small class="btn btn-success ml-3">
@@ -100,8 +100,7 @@
                                     <span class="text-uppercase">Keep Shopping</span>
                                 </a>
                                 <!-- Add to bag button -->
-                                <input type="submit" class="btn btn-black rounded-0 text-uppercase mt-5"
-                                    value="Add to Bag">
+                                <input type="submit" class="btn btn-black rounded-0 text-uppercase mt-5" value="Add to Bag">
                             </div>
                             <input type="hidden" name="redirect_url" value="{{ request.path }}">
                         </div>
@@ -122,19 +121,19 @@
                     <div class="row">
                         <div class="col-12">
                             {% for comment in comments %}
-                            <!-- Show all reviews -->
-                            <div class="shadow-sm p-2 mb-4 bg-grey rounded">
-                                <!-- Review info -->
-                                <p class="text-black font-weight-bold mb-2 mt-2">Posted by: {{ comment.user }} on {{ comment.created_on }}</p>
-                                <p class="mb-2 mt-3">Rating: {{ comment.rating }} </p>
-                                <p class="mb-2 mt-3">Review Text: {{ comment.comment }}</p>
-                                {% if request.user == comment.user %}
-                                <form action="{% url 'delete_review' product.id %}" method="POST">
-                                    {% csrf_token %}
-                                    <button type="submit" class="btn btn-danger">Delete</button>
-                                </form>
-                                {% endif %}
-                            </div>
+                                <!-- Show all reviews -->
+                                <div class="shadow-sm p-2 mb-4 bg-grey rounded">
+                                    <!-- Review info -->
+                                    <p class="text-black font-weight-bold mb-2 mt-2">Posted by: {{ comment.user }} on {{ comment.created_on }}</p>
+                                    <p class="mb-2 mt-3">Rating: {{ comment.rating }} </p>
+                                    <p class="mb-2 mt-3">Review Text: {{ comment.comment }}</p>
+                                    {% if request.user == comment.user %}
+                                        <form action="{% url 'delete_review' product.id %}" method="POST">
+                                            {% csrf_token %}
+                                            <button type="submit" class="btn btn-danger">Delete</button>
+                                        </form>
+                                    {% endif %}
+                                </div>
                             {% endfor %}
                         </div>
                     </div>
@@ -142,19 +141,19 @@
                     <div class="row">
                         <div class="col-lg-6 col-md-12 mt-2 pb-3">
                             {% if request.user.is_authenticated %}
-                            <h3 class="text-uppercase">Add a review</h3>
-                            <form class="form" method="POST" action="{% url 'add_review' product.id %}">
-                                {% csrf_token %}
-                                {{ review_form|crispy }}
-                                <button class="btn btn-dark" type="submit">Add Comment</button>
-                            </form>
+                                <h3 class="text-uppercase">Add a review</h3>
+                                <form class="form" method="POST" action="{% url 'add_review' product.id %}">
+                                    {% csrf_token %}
+                                    {{ review_form|crispy }}
+                                    <button class="btn btn-dark" type="submit">Add Comment</button>
+                                </form>
                             {% else %}
-                            <div>
-                                <!-- Links if not logged in -->
-                                <p>You cannot comment if you ar not logged in</p>
-                                <a href="{% url 'account_signup' %}">Sign Up</a>
-                                <a href="{% url 'account_login' %}">Login</a>
-                            </div>
+                                <div>
+                                    <!-- Links if not logged in -->
+                                    <p>You cannot comment if you ar not logged in</p>
+                                    <a href="{% url 'account_signup' %}">Sign Up</a>
+                                    <a href="{% url 'account_login' %}">Login</a>
+                                </div>
                             {% endif %}
                         </div>
                     </div>
