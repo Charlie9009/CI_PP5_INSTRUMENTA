@@ -219,12 +219,24 @@ input[name='q']::placeholder {
     overflow-y: auto;
 }
 
+/* Fills content when the page does not have enough */
+
+.filler-content {
+    margin-bottom: 425px;
+    margin-top: 50px;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
 @media (min-width: 1200px) {
   .container {
     max-width: 80%;
+  }
+
+  /* All products on all products pages and wishlists */
+  .all-products {
+    margin-bottom: 90px;
   }
 }
 
@@ -376,6 +388,12 @@ input[name='q']::placeholder {
 
     .increment-qty, .decrement-qty {
         padding: .25rem .5rem !important;
+    }
+
+    /* Fills content when the page does not have enough */
+
+    .filler-content {
+        margin-bottom: 200px;
     }
 }
 
