@@ -407,3 +407,13 @@ input[name='q']::placeholder {
         margin: 10px 0px;
     }
 }
+
+/* Footer */
+
+.outer-social-media-container {
+    font-size: 40px;
+}
+
+.inner-social-media {
+    margin: 0 5px;
+}
