@@ -15,6 +15,7 @@
 {% endblock %}
 
 {% block content %}
+<!-- Checkout -->
     <div class="overlay"></div>
     <div class="container">
         <div class="row">
@@ -24,7 +25,7 @@
                 <hr>
             </div>
         </div>
-
+        <!-- Summary of order -->
         <div class="row">
             <div class="col-12 col-lg-6 order-lg-last mb-5">
                 <p class="text-muted">Order Summary ({{ product_count }})</p>
@@ -36,6 +37,7 @@
                         <p class="mb-1 mt-0 small text-muted">Subtotal</p>
                     </div>
                 </div>
+                <!-- Show products in bag -->
                 {% for item in bag_items %}
                     <div class="row">
                         <div class="col-2 mb-1">
@@ -57,6 +59,7 @@
                     </div>
                 {% endfor %}
                 <hr class="my-0">
+                <!-- Prices -->
                 <div class="row text-black text-right">
                     <div class="col-7 offset-2">
                         <p class="my-0">Order Total:</p>
@@ -70,6 +73,7 @@
                     </div>
                 </div>
             </div>
+            <!-- Checkout form -->
             <div class="col-12 col-lg-6">
                 <p class="text-muted">Please fill out the form below to complete your order</p>
                 <form action="{% url 'checkout' %}" method="POST" id="payment-form">
@@ -90,9 +94,11 @@
                         {{ order_form.county | as_crispy_field }}
                         <div class="form-check form-check-inline float-right mr-0">
 							{% if user.is_authenticated %}
+                            <!-- Save personal info -->
 								<label class="form-check-label" for="id-save-info">Save this delivery information to my profile</label>
                                 <input class="form-check-input ml-2 mr-0" type="checkbox" id="id-save-info" name="save-info" checked>
 							{% else %}
+                            <!-- Show buttons for login in or creating account -->
 								<label class="form-check-label" for="id-save-info">
                                     <a class="text-info" href="{% url 'account_signup' %}">Create an account</a> or 
                                     <a class="text-info" href="{% url 'account_login' %}">login</a> to save this information
@@ -100,6 +106,7 @@
 							{% endif %}
 						</div>
                     </fieldset>
+                    <!-- Card from Stripe -->
                     <fieldset class="px-3">
                         <legend class="fieldset-label small text-black px-2 w-auto">Payment</legend>
                         <!-- A Stripe card element will go here -->
@@ -109,7 +116,7 @@
                         <!-- Pass the client secret to the view so we can get the payment intent id -->
                         <input type="hidden" value="{{ client_secret }}" name="client_secret">
                     </fieldset>
-
+                    <!-- Go back to view bag button -->
                     <div class="submit-button text-right mt-5 mb-2">                    
 						<a href="{% url 'view_bag' %}" class="btn btn-outline-black rounded-0">
 							<span class="icon">
@@ -117,12 +124,14 @@
 							</span>
 							<span class="font-weight-bold">Adjust Bag</span>
 						</a>
+                        <!-- Complete order button -->
 						<button id="submit-button" class="btn btn-black rounded-0">
 							<span class="font-weight-bold">Complete Order</span>
 							<span class="icon">
 								<i class="fas fa-lock"></i>
 							</span>
 						</button>
+                        <!-- Heads up to warn user they will be charged -->
 						<p class="small text-danger my-0">
 							<span class="icon">
 								<i class="fas fa-exclamation-circle"></i>
@@ -134,6 +143,7 @@
             </div>
         </div>
     </div>
+    <!-- Loading overlay for payment -->
     <div id="loading-overlay">
         <h1 class="text-light logo-font loading-spinner">
             <span class="icon">
