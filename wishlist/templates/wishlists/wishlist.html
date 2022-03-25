@@ -59,13 +59,11 @@
                                             {% else %}
                                                 <small class="text-muted">No Rating Yet</small>
                                             {% endif %}
-                                            {% if request.user.is_superuser %}
-                                            <!-- Superuser buttons for edit and delete -->
-                                                <small class="ml-3">
-                                                    <a href="{% url 'edit_product' wishlist.id %}">Edit</a> | 
-                                                    <a class="text-danger" href="{% url 'delete_product' wishlist.id %}">Delete</a>
-                                                </small>
-                                            {% endif %}
+                                            <br>
+                                            <!-- Remove product from wishlist -->
+                                            <small class="btn btn-danger mb-2 ml-3">
+                                                <a class="text-reset" href="">Add to Wishlist</a>
+                                            </small>
                                         </div>
                                     </div>
                                 </div>
