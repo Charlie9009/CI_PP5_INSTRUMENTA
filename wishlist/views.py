@@ -1,5 +1,5 @@
 from django.http import Http404
-from django.shortcuts import (render, get_object_or_404, redirect)
+from django.shortcuts import render, get_object_or_404, redirect
 from django.contrib import messages
 from django.urls import reverse
 from django.contrib.auth.decorators import login_required
@@ -50,7 +50,7 @@ def remove_from_wishlist(request, item_id):
     View to remove a product from wishlist
     """
     product = get_object_or_404(Product, pk=item_id)
-    wishlists = get_object_or_404(Wishlist, user=request.user)
+    wishlists = get_object_or_404(Wishlist, user=request.user.id)
     if product in wishlists.products.all():
         wishlists.products.remove(product)
         messages.info(

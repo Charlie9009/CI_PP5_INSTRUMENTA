@@ -1,5 +1,4 @@
 from django import forms
-from django.forms import RadioSelect
 from .models import Question
 
 
@@ -9,7 +8,7 @@ class QuestionForm(forms.ModelForm):
     """
     class Meta:
         """
-        Class for rendering rating and comments
+        Class for rendering question form
         """
         model = Question
         fields = ('question_categories', 'question_comment',)
