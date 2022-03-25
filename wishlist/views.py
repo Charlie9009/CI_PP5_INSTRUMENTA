@@ -24,7 +24,7 @@ def wishlist(request):
     return render(request, template, context)
 
 
-
+@login_required
 def add_to_wishlist(request, item_id):
     """
     Add a product item to wishlist
@@ -42,3 +42,20 @@ def add_to_wishlist(request, item_id):
         wishlists.products.add(product)
         messages.info(request, 'You added this product to you wishlist')
     return redirect(reverse('product_detail', args=[item_id]))
+
+
+@login_required
+def remove_from_wishlist(request, item_id):
+    """
+    View to remove a product from wishlist
+    """
+    product = get_object_or_404(Product, pk=item_id)
+    wishlists = get_object_or_404(Wishlist, user=request.user)
+    if product in wishlists.products.all():
+        wishlists.products.remove(product)
+        messages.info(
+                      request,
+                      'Removed the product from your favourites list')
+    else:
+        messages.error(request, 'Ops, something went wrong')
+    return redirect(reverse('wishlist'))
