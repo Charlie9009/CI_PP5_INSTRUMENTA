@@ -62,7 +62,7 @@
                                             <br>
                                             <!-- Remove product from wishlist -->
                                             <small class="btn btn-danger mb-2 ml-3">
-                                                <a class="text-reset" href="{% url 'remove_from_wishlist' wishlist.id %}">Add to Wishlist</a>
+                                                <a class="text-reset" href="{% url 'remove_from_wishlist' wishlist.id %}">Delete from Wishlist</a>
                                             </small>
                                         </div>
                                     </div>
@@ -72,7 +72,9 @@
                     {% endfor %}
                 </div>
                 {% else %}
-                <h2 class="text-center">You dont have any items in your wishlist.</h2>
+                <div class="filler-content">
+                    <h2 class="text-center">You dont have any items in your wishlist.</h2>
+                </div>
                 {% endif %}
             </div>
         </div>
