@@ -178,9 +178,9 @@
                 <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
                     <h2 class="text-uppercase font-weight-bold mb-4 text-center">Popular Categories</h2>
                     <ul class="list-unstyled mb-0">
-                        <li class="mb-2 footer-categories text-center"><a href="" class="font-black">Guitar</a></li>
-                        <li class="mb-2 footer-categories text-center"><a href="" class="font-black">Piano</a></li>
-                        <li class="mb-2 footer-categories text-center"><a href="" class="font-black">Studio</a></li>
+                        <li class="mb-2 footer-categories text-center"><a href="{% url 'products' %}?category=acousticguitar,electricguitar" class="font-black">Guitar</a></li>
+                        <li class="mb-2 footer-categories text-center"><a href="{% url 'products' %}?category=acousticpiano,digitalpiano" class="font-black">Piano</a></li>
+                        <li class="mb-2 footer-categories text-center"><a href="{% url 'products' %}?category=speakers,audiointerface" class="font-black">Studio</a></li>
                     </ul>
                 </div>
                 <!-- Center footer, Social media -->
