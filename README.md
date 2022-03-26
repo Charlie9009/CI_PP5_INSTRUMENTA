@@ -859,6 +859,10 @@ refresh-toc -->
     
     **Fix:** I added a missing closing for sql database.
 
+* **Bug:** Content was overflowing on x axis.
+    
+    **Fix:** I added a parent div for banner under content with classes, **container-fluid** and **w-100**.
+
 
 ### Known bugs
 
