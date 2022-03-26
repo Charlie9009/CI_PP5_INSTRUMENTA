@@ -12,4 +12,3 @@ class QuestionForm(forms.ModelForm):
         """
         model = Question
         fields = ('question_categories', 'question_comment',)
-

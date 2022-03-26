@@ -15,9 +15,9 @@ def questions(request):
     if request.method == 'POST':
         if question_form.is_valid():
             Question.objects.create(
-                        user=request.user,
-                        question_categories=request.POST['question_categories'],
-                        question_comment=request.POST['question_comment'],
+                    user=request.user,
+                    question_categories=request.POST['question_categories'],
+                    question_comment=request.POST['question_comment'],
                 )
             messages.success(request, 'Thank you for your question!')
         else:

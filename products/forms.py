@@ -42,6 +42,4 @@ class ReviewForm(forms.ModelForm):
         model = Review
         fields = ('rating', 'comment',)
 
-        widgets = {
-            'rating': forms.RadioSelect(),
-        }
+        widgets = {'rating': forms.RadioSelect(), }
