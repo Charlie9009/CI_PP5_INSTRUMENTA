@@ -857,7 +857,7 @@ refresh-toc -->
 
 * **Bug:** Site would not deploy correctly.
     
-    **Fix:** I added a missing closing for sql database.
+    **Fix:** I added a missing closing bracket for sql database.
 
 * **Bug:** Content was overflowing on x axis.
     
