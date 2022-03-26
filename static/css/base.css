@@ -133,6 +133,14 @@ a.category-badge > span.badge:hover {
     filter: brightness(50%);
 }
 
+.carousel-text {
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 50px;
+    width: 50%;
+    margin: 2px auto;
+}
+
 /* Banners */
 
 .banner {
