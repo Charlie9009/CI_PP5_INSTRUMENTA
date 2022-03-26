@@ -28,11 +28,11 @@
                                 {% if wishlist.image %}
                                 <!-- Image -->
                                 <a href="{% url 'product_detail' wishlist.id %}">
-                                    <img class="card-img-top img-fluid" src="{{ wishlist.image.url }}" alt="{{ product.name }}">
+                                    <img class="card-img-top img-fluid" src="{{ wishlist.image.url }}" alt="{{ wishlist.name }}">
                                 </a>
                                 {% else %}
                                 <a href="{% url 'product_detail' wishlist.id %}">
-                                    <img class="card-img-top img-fluid" src="{% static 'media/noimage.png' %}" alt="{{ wishlist.name }}">
+                                    <img class="card-img-top img-fluid" src="{% static 'media/noimage.png' %}" alt="no image">
                                 </a>
                                 {% endif %}
                                 <!-- Product name -->
@@ -49,7 +49,7 @@
                                             <!-- Product category -->
                                             <p class="small mt-1 mb-0">
                                                 <a class="text-muted" href="{% url 'products' %}?category={{ wishlist.category.name }}">
-                                                    <i class="fas fa-tag mr-1"></i>{{ product.category.friendly_name }}
+                                                    <i class="fas fa-tag mr-1"></i>{{ wishlist.category.friendly_name }}
                                                 </a>
                                             </p>
                                             {% endif %}
