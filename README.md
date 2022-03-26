@@ -924,6 +924,8 @@ refresh-toc -->
 [This video was also used](https://www.youtube.com/watch?v=MZwKoi0wu2Q).<br>
 [This site was used for the checkboxes](https://cdf.9vo.lt/1.11/django.forms.widgets/RadioSelect.html).<br>
 
+* [Form rendering was a help from this site](https://simpleisbetterthancomplex.com/tutorial/2018/11/28/advanced-form-rendering-with-django-crispy-forms.html#custom-crispy-field)
+
 ## Acknowledgement
 
 * My Mentor Mo has been invaluable, he pushed me to challenge myself and he was able to provide consistent and helpful feedback throughout my project.
