@@ -121,6 +121,18 @@ a.category-badge > span.badge:hover {
     transition: all 0.5s ease;
 }
 
+/* Header shopping bag */
+
+.shopping-black {
+    color: #000;
+}
+
+/* Carousel */
+
+.carousel-images {
+    filter: brightness(50%);
+}
+
 /* Banners */
 
 .banner {
