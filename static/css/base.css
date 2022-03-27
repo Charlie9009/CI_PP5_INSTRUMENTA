@@ -347,6 +347,12 @@ input[name='q']::placeholder {
     .header-container {
         padding-top: 154px;
     }
+
+    /* All auth */
+
+    #sign-out-filler {
+        padding-bottom: 135px;
+    }
 }
 
 @media (max-width: 991px) {
