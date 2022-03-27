@@ -408,6 +408,54 @@ refresh-toc -->
 <img src="docs/validation/html/index_validation.JPG">
 </details>
 
+<details><summary>No errors were found on add_products.html when passing through WC3 Validator.</summary>
+<img src="docs/validation/html/add_products_validation.JPG">
+</details>
+
+<details><summary>No errors were found on edit_product.html when passing through WC3 Validator.</summary>
+<img src="docs/validation/html/edit_product_validation.JPG">
+</details>
+
+<details><summary>No errors were found on product_detail.html when passing through WC3 Validator.</summary>
+<img src="docs/validation/html/product_detail_validation.JPG">
+</details>
+
+<details><summary>No errors were found on products.html when passing through WC3 Validator.</summary>
+<img src="docs/validation/html/products_validation.JPG">
+</details>
+
+<details><summary>No errors were found on questions.html when passing through WC3 Validator.</summary>
+<img src="docs/validation/html/questions_validation.JPG">
+</details>
+
+<details><summary>No errors were found on wishlist.html when passing through WC3 Validator.</summary>
+<img src="docs/validation/html/wishlist_validation.JPG">
+</details>
+
+<details><summary>No errors were found on bag.html when passing through WC3 Validator.</summary>
+<img src="docs/validation/html/bag_validation.JPG">
+</details>
+
+<details><summary>No errors were found on checkout.html when passing through WC3 Validator.</summary>
+<img src="docs/validation/html/checkout_validation.JPG">
+</details>
+
+<details><summary>No errors were found on checkout_success.html when passing through WC3 Validator.</summary>
+<img src="docs/validation/html/checkout_success_validation.JPG">
+</details>
+
+<details><summary>No errors were found on 404.html when passing through WC3 Validator.</summary>
+<img src="docs/validation/html/404_validation.JPG">
+</details>
+
+<details><summary>No errors were found on profile.html when passing through WC3 Validator.</summary>
+<img src="docs/validation/html/profile_validation.JPG">
+</details>
+
+<details><summary>No errors were found on reset_password.html when passing through WC3 Validator.</summary>
+<img src="docs/validation/html/reset_password_validation.JPG">
+</details>
+
 <details><summary>No errors were found on login.html when passing through WC3 Validator.</summary>
 <img src="docs/validation/html/login_validation.JPG">
 </details>
@@ -416,32 +464,8 @@ refresh-toc -->
 <img src="docs/validation/html/logout_validation.JPG">
 </details>
 
-<details><summary>No errors were found on post_create.html when passing through WC3 Validator.</summary>
-<img src="docs/validation/html/post_create_validation.JPG">
-</details>
-
-<details><summary>No errors were found on post_delete_confirm.html when passing through WC3 Validator.</summary>
-<img src="docs/validation/html/post_delete_confirm_validation.JPG">
-</details>
-
-<details><summary>No errors were found on post_detail.html when passing through WC3 Validator.</summary>
-<img src="docs/validation/html/post_detail_validation.JPG">
-</details>
-
-<details><summary>No errors were found on post_update.html when passing through WC3 Validator.</summary>
-<img src="docs/validation/html/post_update_validation.JPG">
-</details>
-
-<details><summary>No errors were found on question.html when passing through WC3 Validator.</summary>
-<img src="docs/validation/html/question_validation.JPG">
-</details>
-
-<details><summary>No errors were found on register.html when passing through WC3 Validator.</summary>
-<img src="docs/validation/html/register_validation.JPG">
-</details>
-
-<details><summary>No errors were found on search_results.html when passing through WC3 Validator.</summary>
-<img src="docs/validation/html/search_results_validation.JPG">
+<details><summary>No errors were found on signup.html when passing through WC3 Validator.</summary>
+<img src="docs/validation/html/signup_validation.JPG">
 </details>
 <hr>
 
