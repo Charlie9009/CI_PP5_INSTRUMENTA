@@ -610,6 +610,10 @@ refresh-toc -->
     <img src="docs/validation/python/wishlist/views.JPG">
     </details>
 </details>
+
+<details><summary>No errors were found on custom_storages.py when passing through PEP8 Validator.</summary>
+    <img src="docs/validation/python/custom_storages.JPG">
+    </details>
 <hr>
 
 #### Javascript
