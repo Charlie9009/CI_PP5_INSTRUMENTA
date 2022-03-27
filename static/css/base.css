@@ -161,7 +161,7 @@ a.category-badge > span.badge:hover {
 
 /* Search bar */
 
-input[name='q']::placeholder {
+input[name='search']::placeholder {
     color: #aab7c4;
 }
 
@@ -181,8 +181,6 @@ input[name='q']::placeholder {
 .toast-capper {
     height: 2px;
 }
-
-/* --- Shopping bag --- */
 
 /* Convenience classes - colors copied from Bootstrap */
 .arrow-primary {
@@ -217,6 +215,8 @@ input[name='q']::placeholder {
     border-bottom-color: #343a40 !important;
 }
 
+/* --- Shopping bag --- */
+
 .bag-notification-wrapper {
     height: 100px;
     overflow-x: hidden;
@@ -228,20 +228,6 @@ input[name='q']::placeholder {
 .filler-content {
     margin-bottom: 425px;
     margin-top: 50px;
-}
-
-/* -------------------------------- Media Queries */
-
-/* Slightly larger container on xl screens */
-@media (min-width: 1200px) {
-  .container {
-    max-width: 80%;
-  }
-
-  /* All products on all products pages and wishlists */
-  .all-products {
-    margin-bottom: 90px;
-  }
 }
 
 /* Allauth form formatting */
@@ -334,6 +320,20 @@ input[name='q']::placeholder {
     border-radius: 0;
 }
 
+/* -------------------------------- Media Queries */
+
+/* Slightly larger container on xl screens */
+@media (min-width: 1200px) {
+    .container {
+      max-width: 80%;
+    }
+  
+    /* All products on all products pages and wishlists */
+    .all-products {
+      margin-bottom: 90px;
+    }
+  }
+
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
     .fixed-top-desktop-only {
@@ -360,17 +360,18 @@ input[name='q']::placeholder {
 }
 
 @media (max-width: 991px) {
+    /* Header container */
     .header-container {
         padding-top: 92px;
     }
+
+    /* Body */
 
     body {
         height: calc(100vh - 116px);
     }
 
-    .display-4.logo-font.text-black {
-        font-size: 2rem;
-    }
+    /* Nav */
 
     .nav-link {
         padding: 0.15rem;
@@ -385,9 +386,7 @@ input[name='q']::placeholder {
         font-size: 1rem;
     }
 
-    #delivery-banner h4 {
-        font-size: .9rem;
-    }
+    /* Buttons */
 
     .btn.btn-outline-black.rounded-0,
     .btn.btn-black.rounded-0 {
