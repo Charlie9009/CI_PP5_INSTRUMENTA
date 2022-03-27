@@ -1,5 +1,5 @@
 // Back to top button
-$('.back-to-top-link').click(function(e) {
+$('.btt-link').click(function(e) {
     window.scrollTo(0,0)
 })
 

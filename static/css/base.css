@@ -159,20 +159,6 @@ a.category-badge > span.badge:hover {
     margin-bottom: 10px;
 }
 
-/* Back to top button */
-
-.back-to-top-button {
-    height: 50px;
-    width: 50px;
-    position: fixed;
-    bottom: 50px;
-    right: 15px;
-}
-
-.back-to-top-link {
-    cursor: pointer;
-}
-
 /* Search bar */
 
 input[name='q']::placeholder {
