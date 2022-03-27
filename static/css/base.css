@@ -353,6 +353,10 @@ input[name='q']::placeholder {
     #sign-out-filler {
         padding-bottom: 180px;
     }
+
+    #bag-filler {
+        padding-bottom: 50px;
+    }
 }
 
 @media (max-width: 991px) {
