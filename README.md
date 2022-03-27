@@ -479,28 +479,124 @@ refresh-toc -->
 
 #### Python
 
-<details><summary>No errors were found on admin.py when passing through PEP8 Validator.</summary>
-<img src="docs/validation/python/admin_validation.JPG">
+<details><summary>BAG</summary>
+    <details><summary>No errors were found on the bag app when passing through PEP8 Validator.</summary>
+    <img src="docs/validation/python/blog_urls_validation.JPG">
+    </details>
+    <details><summary>No errors were found on the bag app when passing through PEP8 Validator.</summary>
+    <img src="docs/validation/python/blog_urls_validation.JPG">
+    </details>
+    <details><summary>No errors were found on the bag app when passing through PEP8 Validator.</summary>
+    <img src="docs/validation/python/blog_urls_validation.JPG">
+    </details>
+    <details><summary>No errors were found on the bag app when passing through PEP8 Validator.</summary>
+    <img src="docs/validation/python/blog_urls_validation.JPG">
+    </details>
 </details>
 
-<details><summary>No errors were found on blog_urls.py when passing through PEP8 Validator.</summary>
-<img src="docs/validation/python/blog_urls_validation.JPG">
+<details><summary>CHECKOUT</summary>
+    <details><summary>No errors were found on the bag app when passing through PEP8 Validator.</summary>
+    <img src="docs/validation/python/blog_urls_validation.JPG">
+    </details>
+    <details><summary>No errors were found on the bag app when passing through PEP8 Validator.</summary>
+    <img src="docs/validation/python/blog_urls_validation.JPG">
+    </details>
+    <details><summary>No errors were found on the bag app when passing through PEP8 Validator.</summary>
+    <img src="docs/validation/python/blog_urls_validation.JPG">
+    </details>
+    <details><summary>No errors were found on the bag app when passing through PEP8 Validator.</summary>
+    <img src="docs/validation/python/blog_urls_validation.JPG">
+    </details>
 </details>
 
-<details><summary>No errors were found on forms.py when passing through PEP8 Validator.</summary>
-<img src="docs/validation/python/forms_validation.JPG">
+<details><summary>HOME</summary>
+    <details><summary>No errors were found on the bag app when passing through PEP8 Validator.</summary>
+    <img src="docs/validation/python/blog_urls_validation.JPG">
+    </details>
+    <details><summary>No errors were found on the bag app when passing through PEP8 Validator.</summary>
+    <img src="docs/validation/python/blog_urls_validation.JPG">
+    </details>
+    <details><summary>No errors were found on the bag app when passing through PEP8 Validator.</summary>
+    <img src="docs/validation/python/blog_urls_validation.JPG">
+    </details>
+    <details><summary>No errors were found on the bag app when passing through PEP8 Validator.</summary>
+    <img src="docs/validation/python/blog_urls_validation.JPG">
+    </details>
 </details>
 
-<details><summary>No errors were found on models.py when passing through PEP8 Validator.</summary>
-<img src="docs/validation/python/models_validation.JPG">
+<details><summary>INSTRUMENTA</summary>
+    <details><summary>No errors were found on the bag app when passing through PEP8 Validator.</summary>
+    <img src="docs/validation/python/blog_urls_validation.JPG">
+    </details>
+    <details><summary>No errors were found on the bag app when passing through PEP8 Validator.</summary>
+    <img src="docs/validation/python/blog_urls_validation.JPG">
+    </details>
+    <details><summary>No errors were found on the bag app when passing through PEP8 Validator.</summary>
+    <img src="docs/validation/python/blog_urls_validation.JPG">
+    </details>
+    <details><summary>No errors were found on the bag app when passing through PEP8 Validator.</summary>
+    <img src="docs/validation/python/blog_urls_validation.JPG">
+    </details>
 </details>
 
-<details><summary>No errors were found on newsblog_urls.py when passing through PEP8 Validator.</summary>
-<img src="docs/validation/python/newsblog_urls_validation.JPG">
+<details><summary>PRODUCTS</summary>
+    <details><summary>No errors were found on the bag app when passing through PEP8 Validator.</summary>
+    <img src="docs/validation/python/blog_urls_validation.JPG">
+    </details>
+    <details><summary>No errors were found on the bag app when passing through PEP8 Validator.</summary>
+    <img src="docs/validation/python/blog_urls_validation.JPG">
+    </details>
+    <details><summary>No errors were found on the bag app when passing through PEP8 Validator.</summary>
+    <img src="docs/validation/python/blog_urls_validation.JPG">
+    </details>
+    <details><summary>No errors were found on the bag app when passing through PEP8 Validator.</summary>
+    <img src="docs/validation/python/blog_urls_validation.JPG">
+    </details>
 </details>
 
-<details><summary>No errors were found on views.py when passing through PEP8 Validator.</summary>
-<img src="docs/validation/python/views_validation.JPG">
+<details><summary>PROFILES</summary>
+    <details><summary>No errors were found on the bag app when passing through PEP8 Validator.</summary>
+    <img src="docs/validation/python/blog_urls_validation.JPG">
+    </details>
+    <details><summary>No errors were found on the bag app when passing through PEP8 Validator.</summary>
+    <img src="docs/validation/python/blog_urls_validation.JPG">
+    </details>
+    <details><summary>No errors were found on the bag app when passing through PEP8 Validator.</summary>
+    <img src="docs/validation/python/blog_urls_validation.JPG">
+    </details>
+    <details><summary>No errors were found on the bag app when passing through PEP8 Validator.</summary>
+    <img src="docs/validation/python/blog_urls_validation.JPG">
+    </details>
+</details>
+
+<details><summary>QUESTIONS</summary>
+    <details><summary>No errors were found on the bag app when passing through PEP8 Validator.</summary>
+    <img src="docs/validation/python/blog_urls_validation.JPG">
+    </details>
+    <details><summary>No errors were found on the bag app when passing through PEP8 Validator.</summary>
+    <img src="docs/validation/python/blog_urls_validation.JPG">
+    </details>
+    <details><summary>No errors were found on the bag app when passing through PEP8 Validator.</summary>
+    <img src="docs/validation/python/blog_urls_validation.JPG">
+    </details>
+    <details><summary>No errors were found on the bag app when passing through PEP8 Validator.</summary>
+    <img src="docs/validation/python/blog_urls_validation.JPG">
+    </details>
+</details>
+
+<details><summary>WISHLIST</summary>
+    <details><summary>No errors were found on the bag app when passing through PEP8 Validator.</summary>
+    <img src="docs/validation/python/blog_urls_validation.JPG">
+    </details>
+    <details><summary>No errors were found on the bag app when passing through PEP8 Validator.</summary>
+    <img src="docs/validation/python/blog_urls_validation.JPG">
+    </details>
+    <details><summary>No errors were found on the bag app when passing through PEP8 Validator.</summary>
+    <img src="docs/validation/python/blog_urls_validation.JPG">
+    </details>
+    <details><summary>No errors were found on the bag app when passing through PEP8 Validator.</summary>
+    <img src="docs/validation/python/blog_urls_validation.JPG">
+    </details>
 </details>
 <hr>
 
