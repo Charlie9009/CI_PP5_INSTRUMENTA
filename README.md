@@ -513,8 +513,56 @@ refresh-toc -->
 
 #### Accessibility
 
-<details><summary>No errors were found on the base/index.html when passing through Wave Web Accessibility Validator.</summary>
-<img src="docs/validation/accessibility/wave_base_index_validation.JPG">
+<details><summary>No errors were found on the index.html when passing through Wave Web Accessibility Validator.</summary>
+<img src="docs/validation/accessibility/wave_index_validation.JPG">
+</details>
+
+<details><summary>No errors were found on the add_product.html when passing through Wave Web Accessibility Validator.</summary>
+<img src="docs/validation/accessibility/wave_add_products_validation.JPG">
+</details>
+
+<details><summary>No errors were found on the edit_product.html when passing through Wave Web Accessibility Validator.</summary>
+<img src="docs/validation/accessibility/wave_edit_products_validation.JPG">
+</details>
+
+<details><summary>No errors were found on the product_detail.html when passing through Wave Web Accessibility Validator.</summary>
+<img src="docs/validation/accessibility/wave_product_detail_validation.JPG">
+</details>
+
+<details><summary>No errors were found on the products.html when passing through Wave Web Accessibility Validator.</summary>
+<img src="docs/validation/accessibility/wave_products_validation.JPG">
+</details>
+
+<details><summary>No errors were found on the questions.html when passing through Wave Web Accessibility Validator.</summary>
+<img src="docs/validation/accessibility/wave_questions_validation.JPG">
+</details>
+
+<details><summary>No errors were found on the wishlist.html when passing through Wave Web Accessibility Validator.</summary>
+<img src="docs/validation/accessibility/wave_wishlist_validation.JPG">
+</details>
+
+<details><summary>No errors were found on the bag.html when passing through Wave Web Accessibility Validator.</summary>
+<img src="docs/validation/accessibility/wave_bag_validation.JPG">
+</details>
+
+<details><summary>No errors were found on the checkout.html when passing through Wave Web Accessibility Validator.</summary>
+<img src="docs/validation/accessibility/wave_checkout_validation.JPG">
+</details>
+
+<details><summary>No errors were found on the checkout_success.html when passing through Wave Web Accessibility Validator.</summary>
+<img src="docs/validation/accessibility/wave_checkout_success_validation.JPG">
+</details>
+
+<details><summary>No errors were found on the 404.html when passing through Wave Web Accessibility Validator.</summary>
+<img src="docs/validation/accessibility/wave_404_validation.JPG">
+</details>
+
+<details><summary>No errors were found on the profile.html when passing through Wave Web Accessibility Validator.</summary>
+<img src="docs/validation/accessibility/wave_profile_validation.JPG">
+</details>
+
+<details><summary>No errors were found on the reset_password.html when passing through Wave Web Accessibility Validator.</summary>
+<img src="docs/validation/accessibility/wave_reset_password_validation.JPG">
 </details>
 
 <details><summary>No errors were found on the login.html when passing through Wave Web Accessibility Validator.</summary>
@@ -526,31 +574,7 @@ refresh-toc -->
 </details>
 
 <details><summary>No errors were found on the signup.html when passing through Wave Web Accessibility Validator.</summary>
-<img src="docs/validation/accessibility/wave_register_validation.JPG">
-</details>
-
-<details><summary>No errors were found on the question.html when passing through Wave Web Accessibility Validator.</summary>
-<img src="docs/validation/accessibility/wave_question_validation.JPG">
-</details>
-
-<details><summary>No errors were found on the delete_confirm.html when passing through Wave Web Accessibility Validator.</summary>
-<img src="docs/validation/accessibility/wave_delete_confirm_validation.JPG">
-</details>
-
-<details><summary>No errors were found on the post_create.html when passing through Wave Web Accessibility Validator.</summary>
-<img src="docs/validation/accessibility/wave_post_create_validation.JPG">
-</details>
-
-<details><summary>No errors were found on the post_detail.html when passing through Wave Web Accessibility Validator.</summary>
-<img src="docs/validation/accessibility/wave_post_detail_validation.JPG">
-</details>
-
-<details><summary>No errors were found on the post_update.html when passing through Wave Web Accessibility Validator.</summary>
-<img src="docs/validation/accessibility/wave_post_update_validation.JPG">
-</details>
-
-<details><summary>No errors were found on the search_results.html when passing through Wave Web Accessibility Validator.</summary>
-<img src="docs/validation/accessibility/wave_search_results_validation.JPG">
+<img src="docs/validation/accessibility/wave_signup_validation.JPG">
 </details>
 <hr>
 
