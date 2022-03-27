@@ -14,7 +14,7 @@ $('#sort-selector').change(function() {
         currentUrl.searchParams.delete("direction");
         window.location.replace(currentUrl);
     }
-})
+});
 
 // Listen for change in imagefield
 $('#new-image').change(function() {
@@ -24,5 +24,5 @@ $('#new-image').change(function() {
 
 // Back to top button
 $('.btt-link').click(function(e) {
-    window.scrollTo(0,0)
-})
+    window.scrollTo(0,0);
+});
