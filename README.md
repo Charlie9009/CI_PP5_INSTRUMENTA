@@ -364,102 +364,93 @@ refresh-toc -->
 
 ## Features
 
-* **News List**
+* **Carousel**
 
-* The opening of the site shows a list of posts
+* The opening of the site shows a carousel with instrument images
 <br>
-<img src="docs/features/feature_view_news.JPG">
+<img src="docs/features/feature_instruments.JPG">
 
 ### User stories covered by this feature:
 
-    1. 
+    1. As a Site Visitor I can see pictures of instruments when I enter the page so that I know what kind of page I am on.
 <hr>
 
-* **Account creation**
+* **Categories Nav**
 
-* A feature was implemented for a user to create an account
+* A feature was implemented to show a navbar with the instrument categories
 <br>
-<img src="docs/features/feature_register.png">
+<img src="docs/features/feature_categories.JPG">
 
 ### User stories covered by this feature:
 
-    2. 
+    2. As a Site Visitor I can see music instrument categories so I can find the products I am interested in.
 <hr>
 
-* **Questions**
+* **Product List**
 
-* A feature was implemented where the admin answers users questions
+* A feature was implemented to show a list of products to scroll thru
 <br>
-<img src="docs/features/feature_question.png">
+<img src="docs/features/feature_product_list.JPG">
 
 ### User stories covered by this feature:
 
-    3. 
+    3. As a Site Visitor I can scroll thru a list of products so that I can find the product I want.
 <hr>
 
-* **Crud**
+* **Product Detail**
 
-**Requires log in**
-
-* A feature was implemented so users can create, read, update and delete their posts
+* A feature was implemented to show a single product 
 <br>
-<img src="docs/features/feature_crud.png">
+<img src="docs/features/feature_product_detail.JPG">
 
 ### User stories covered by this feature:
 
-    4.
+    4. As a Site Visitor I can click on a product and see information about the product so I can get a better view of the product.
+<hr>
+
+* **Sort**
+
+* A feature was implemented so users can sort products
+<br>
+<img src="docs/features/feature_sort.JPG">
+
+### User stories covered by this feature:
+
+    5. As a Site Visitor I can sort products so I can find the product I want.
 <hr>
 
 * **Search**
 
-**Requires log in**
-
-* A feature was implemented so users can search for content
+* A feature was implemented so users can search for products
 <br>
-<img src="docs/features/feature_search.png">
+<img src="docs/features/feature_search.JPG">
 
 ### User stories covered by this feature:
 
-    5. 
+    6. As a Site Visitor I can search for products so I can find the relevant one for me.
 <hr>
 
-* **Open Post**
+* **Add to bag**
 
-**Requires log in**
-
-* A feature was implemented so users can click on a post to read it
+* A feature was implemented so users can add products to bag
 <br>
-<img src="docs/features/feature_read_post.png">
+<img src="docs/features/feature_add_to_bag.JPG">
 
 ### User stories covered by this feature:
 
-    6. 
+    7. As a Site Visitor I can add products to a bag so I can see everything I have added.
+    9. As a Site Visitor I can add products to a bag so that I can buy them
 <hr>
 
-* **Read Comments**
+* **Update and Delete products in bag**
 
-**Requires log in**
-
-* A feature was implemented so users see comments made underneath the post
+* A feature was implemented so users can update their bag
 <br>
-<img src="docs/features/feature_read_comment.png">
+<img src="docs/features/feature_update_delete_product.JPG">
 
 ### User stories covered by this feature:
 
-    6. 
-<hr>
-
-* **Make Comments**
-
-**Requires log in**
-
-* A feature was implemented so users can make comments on posts
-<br>
-<img src="docs/features/feature_make_comment.png">
-
-### User stories covered by this feature:
-
-    6. 
+    8. As a Site Visitor I can Update and Delete products in bag so I can Remove products I dont want.
 <hr>
 
 * **Admin Crud**
@@ -468,11 +459,12 @@ refresh-toc -->
 
 * A feature was implemented so the admin can manage the content on the page
 <br>
-<img src="docs/features/feature_admin_crud.png">
+<img src="docs/features/feature_add_to_bag.JPG">
 
 ### User stories covered by this feature:
 
-    9. 
+    9. As a Site Visitor I can add products to a bag so that I can buy them
+    7. As a Site Visitor I can add products to a bag so I can see everything I have added.
 <hr>
 
 * **Admin Warning**
@@ -485,7 +477,7 @@ refresh-toc -->
 
 ### User stories covered by this feature:
 
-    10.
+    10. As a Site Visitor I can buy a product so I can get the product I want.
 <hr>
 
 * **Admin Search**
@@ -514,6 +506,12 @@ refresh-toc -->
     5. 
     11. 
 <hr>
+
+
+
+
+**Requires SUPERUSER**
+**Requires LOGIN**
 
 ### Features left to implement
 
