@@ -1305,28 +1305,49 @@ refresh-toc -->
 <hr>
 
 
-3. As a Site Visitor I can scroll thru a list of products so that I can find the product I want.
+15. As a Site Visitor I can read reviews so that I can see which products customers are happy with.
 
 |             Feature           |        Action        |                 Expected result                    |   Actual result     |
 |            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
-|  Page of products  |  Click any category | User will be taken to products page         | Works as expected   |
+|  Reviews on products  |  Go to product detail > scroll down | User will find reviews or no reviews        | Works as expected   |
 <details><summary>Screenshot</summary>
-<img src="docs/test/userstory_3.png">
+<img src="docs/test/userstory_15.png">
 </details>
 <hr>
 
 
-4. As a Site User I can create, read, update and delete posts so that I can manage my content.
+16. As a Site Visitor I can create an account so that I can have personal info saved.
+
+|             Feature           |        Action        |                 Expected result                    |   Actual result     |
+|            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
+|  Create account  |  Go to signup > fill out the form > verify email > confirm email | User will now have an account        | Works as expected   |
+<details><summary>Screenshot</summary>
+<img src="docs/test/userstory_16.png">
+</details>
+<hr>
+
+
+17. As a Site User I can log in to my account so that I can save my personal info. 
 **Requires log in**
 
 |             Feature           |        Action        |                 Expected result                    |   Actual result     |
 |            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
-|  Create posts|  Click on *new post* button            |          User will be taken to a form to fill out  |   Works as expected |
-|  Read posts|  Posts are present on home page, click *read more* button to read the hole post | User will be taken to post  |   Works as expected |
-|  Update posts|  Click on *read more* of own created post, click *edit* and then *update* | User will updated post  |   Works as expected |
-|  Delete posts|  Click on *read more* of own created post, click *delete* and then *yes, delete* | User will be taken to home page  |   Works as expected |
+|  Personal info  |  when logged in click my profile  > fill out the form > click update information | User will now have saved personal info        | Works as expected   |
 <details><summary>Screenshot</summary>
-<img src="docs/test/userstory_1.png">
+<img src="docs/test/userstory_17.png">
+</details>
+<hr>
+
+
+18. As a Site User I can add a product to a wishlist so that I can keep track of products I want.
+**Requires log in**
+
+|             Feature           |        Action        |                 Expected result                    |   Actual result     |
+|            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
+|  add to wishlist |  go to product detail > click add to wishlist        |          product now added to wishlist  |   Works as expected |
+
+<details><summary>Screenshot</summary>
+<img src="docs/test/userstory_18.png">
 </details>
 <hr>
 

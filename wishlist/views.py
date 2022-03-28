@@ -40,7 +40,7 @@ def add_to_wishlist(request, item_id):
                        'You already have this product in your wishlist')
     else:
         wishlists.products.add(product)
-        messages.info(request, 'You added this product to you wishlist')
+        messages.info(request, 'You added this product to your wishlist')
     return redirect(reverse('product_detail', args=[item_id]))
 
 
@@ -55,7 +55,7 @@ def remove_from_wishlist(request, item_id):
         wishlists.products.remove(product)
         messages.info(
                       request,
-                      'Removed the product from your favourites list')
+                      'Removed the product from your wishlist')
     else:
         messages.error(request, 'Ops, something went wrong')
     return redirect(reverse('wishlist'))
