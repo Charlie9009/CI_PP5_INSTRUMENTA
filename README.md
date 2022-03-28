@@ -844,40 +844,60 @@ refresh-toc -->
 <img src="docs/validation/lighthouse/index_light.JPG">
 </details>
 
+<details><summary>add_products.html</summary>
+<img src="docs/validation/lighthouse/add_products_light.JPG">
+</details>
+
+<details><summary>edit_products.html</summary>
+<img src="docs/validation/lighthouse/edit_products_light.JPG">
+</details>
+
+<details><summary>product_detail.html</summary>
+<img src="docs/validation/lighthouse/product_detail_light.JPG">
+</details>
+
+<details><summary>products.html</summary>
+<img src="docs/validation/lighthouse/products_light.JPG">
+</details>
+
+<details><summary>questions.html</summary>
+<img src="docs/validation/lighthouse/questions_light.JPG">
+</details>
+
+<details><summary>wishlist.html</summary>
+<img src="docs/validation/lighthouse/wishlist_light.JPG">
+</details>
+
+<details><summary>bag.html</summary>
+<img src="docs/validation/lighthouse/bag_light.JPG">
+</details>
+
+<details><summary>checkout.html</summary>
+<img src="docs/validation/lighthouse/checkout_light.JPG">
+</details>
+
+<details><summary>checkout_success.html</summary>
+<img src="docs/validation/lighthouse/checkout_success_light.JPG">
+</details>
+
+<details><summary>profile.html</summary>
+<img src="docs/validation/lighthouse/profile_light.JPG">
+</details>
+
+<details><summary>reset_password.html</summary>
+<img src="docs/validation/lighthouse/reset_password_light.JPG">
+</details>
+
 <details><summary>login.html</summary>
-<img src="">
+<img src="docs/validation/lighthouse/login_light.JPG">
 </details>
 
 <details><summary>logout.html</summary>
-<img src="">
+<img src="docs/validation/lighthouse/logout_light.JPG">
 </details>
 
-<details><summary>post_create.html</summary>
-<img src="">
-</details>
-
-<details><summary>post_delete_confirm.html</summary>
-<img src="">
-</details>
-
-<details><summary>post_detail.html</summary>
-<img src="">
-</details>
-
-<details><summary>post_update.html</summary>
-<img src="">
-</details>
-
-<details><summary>question.html</summary>
-<img src="">
-</details>
-
-<details><summary>register.html</summary>
-<img src="">
-</details>
-
-<details><summary>search_results.html</summary>
-<img src="">
+<details><summary>signup.html</summary>
+<img src="docs/validation/lighthouse/signup_light.JPG">
 </details>
 <hr>
 
