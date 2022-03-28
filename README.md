@@ -1169,35 +1169,149 @@ refresh-toc -->
 
 ## Testing user stories
 
-1. As a Site Visitor I can read news so I can keep up to speed with the world.
+1. As a Site Visitor I can see pictures of instruments when I enter the page so that I know what kind of page I am on.
 
 |             Feature           |        Action        |                 Expected result                    |   Actual result     |
 |            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
-|  The newspost are on the home page |    arrive on home page    |       posts will appear on home page     |  Works as expected  |
+|  The carousel is on the home page |    arrive on home page    |       carousel will appear on home page     |  Works as expected  |
 <details><summary>Screenshot</summary>
-<img src="">
+<img src="docs/test/userstory_1.png">
 </details>
 <hr>
 
 
-2. As a Site Visitor I can create an account so that I can interact with the content, add my own content and search for content.
+2. As a Site Visitor I can see music instrument categories so I can find the products I am interested in.
 
 |             Feature           |        Action        |                 Expected result                    |   Actual result     |
 |            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
-|  Form to fill out account info  | Click register button and fill out form |      When form is submited, user will be logged in  | Works as expected |
+|  Categories are present in navbar  | click choosen category |      navbar will appear on every page  | Works as expected |
 <details><summary>Screenshot</summary>
-<img src="">
+<img src="docs/test/userstory_2.png">
 </details>
 <hr>
 
 
-3. As a Site Visitor I can view questions so that I can see what other people have had to say about the site.
+3. As a Site Visitor I can scroll thru a list of products so that I can find the product I want.
 
 |             Feature           |        Action        |                 Expected result                    |   Actual result     |
 |            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
-|  Page to display questions  |  Click the question button | User will be taken to the question page         | Works as expected   |
+|  Page of products  |  Click any category | User will be taken to products page         | Works as expected   |
 <details><summary>Screenshot</summary>
-<img src="">
+<img src="docs/test/userstory_3.png">
+</details>
+<hr>
+
+
+4. As a Site Visitor I can click on a product and see information about the product so I can get a better view of the product.
+
+|             Feature           |        Action        |                 Expected result                    |   Actual result     |
+|            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
+|  Product Details  |  Click on a product | User will be taken to product detail page       | Works as expected   |
+<details><summary>Screenshot</summary>
+<img src="docs/test/userstory_4.png">
+</details>
+<hr>
+
+
+5. As a Site Visitor I can sort products so I can find the product I want.
+
+|             Feature           |        Action        |                 Expected result                    |   Actual result     |
+|            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
+|  sorting button  |  click on button and choose sorting | products will be sorted         | Works as expected   |
+<details><summary>Screenshot</summary>
+<img src="docs/test/userstory_5.png">
+</details>
+<hr>
+
+
+6. As a Site Visitor I can search for products so I can find the relevant one for me.
+
+|             Feature           |        Action        |                 Expected result                    |   Actual result     |
+|            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
+|  Search bar  |  search for product | User will be taken to products page with products found         | Works as expected   |
+<details><summary>Screenshot</summary>
+<img src="docs/test/userstory_6.png">
+</details>
+<hr>
+
+
+7. As a Site Visitor I can add products to a bag so I can see everything I have added.
+
+|             Feature           |        Action        |                 Expected result                    |   Actual result     |
+|            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
+|  Add to bag  |  Click on product > click on add to bag | product will be added to bag         | Works as expected   |
+<details><summary>Screenshot</summary>
+<img src="docs/test/userstory_7.png">
+</details>
+<hr>
+
+
+8. As a Site Visitor I can Update and Delete products in bag so I can Remove products I dont want.
+
+|             Feature           |        Action        |                 Expected result                    |   Actual result     |
+|            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
+|  Update and remove products  | Go to checkout > Click on update to update quantity, click on remove to remove | User will be taken to products page   | Works as expected   |
+<details><summary>Screenshot</summary>
+<img src="docs/test/userstory_8.png">
+</details>
+<hr>
+
+
+9. As a Site Visitor I can add products to a bag so that I can buy them
+
+|             Feature           |        Action        |                 Expected result                    |   Actual result     |
+|            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
+|  Add to bag  |  Click on product > click on add to bag | product will be added to bag         | Works as expected   |
+<details><summary>Screenshot</summary>
+<img src="docs/test/userstory_7.png">
+</details>
+<hr>
+
+
+10. As a Site Visitor I can buy a product so I can get the product I want.
+11. As a Site Visitor I can get an email confirmation so I can feel confident the purchase is ok.
+12. As a Site Visitor I can view an order confirmation so I can feel confident everything is ok.
+
+|             Feature           |        Action        |                 Expected result                    |   Actual result     |
+|            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
+|  checkout  |  add product to bag > click on checkout > click secure checkout > fill out delivery info > click complete order | order will be processed, user will get email conf, and come to order conf         | Works as expected   |
+|  email confirmation  |  complete an order | User will get an email confirmation         | Works as expected   |
+|  order confirmation  |  complete an order | User will be redirected to order confirmation         | Works as expected   |
+<details><summary>Screenshot</summary>
+<img src="docs/test/userstory_10.png">
+</details>
+<hr>
+
+
+13. As a Site Visitor I can browse the site and get notifications messages so I can know if things are working or not.
+
+|             Feature           |        Action        |                 Expected result                    |   Actual result     |
+|            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
+|  notifications  |  add to bag, edit, remove | User will get a notification         | Works as expected   |
+<details><summary>Screenshot</summary>
+<img src="docs/test/userstory_13.png">
+</details>
+<hr>
+
+
+14. As a Site Visitor I can click on a button so that I can get to the top of the page quickly.
+
+|             Feature           |        Action        |                 Expected result                    |   Actual result     |
+|            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
+|  Back to top button  |  Click button | User will be taken to top of page         | Works as expected   |
+<details><summary>Screenshot</summary>
+<img src="docs/test/userstory_14.png">
+</details>
+<hr>
+
+
+3. As a Site Visitor I can scroll thru a list of products so that I can find the product I want.
+
+|             Feature           |        Action        |                 Expected result                    |   Actual result     |
+|            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
+|  Page of products  |  Click any category | User will be taken to products page         | Works as expected   |
+<details><summary>Screenshot</summary>
+<img src="docs/test/userstory_3.png">
 </details>
 <hr>
 
@@ -1212,7 +1326,7 @@ refresh-toc -->
 |  Update posts|  Click on *read more* of own created post, click *edit* and then *update* | User will updated post  |   Works as expected |
 |  Delete posts|  Click on *read more* of own created post, click *delete* and then *yes, delete* | User will be taken to home page  |   Works as expected |
 <details><summary>Screenshot</summary>
-<img src="">
+<img src="docs/test/userstory_1.png">
 </details>
 <hr>
 
@@ -1227,7 +1341,7 @@ refresh-toc -->
 |  Delete posts|  Click on *read more*                           | Visitor will be taken to log in page  |   Works as expected |
 |  Delete posts|  Write url for deleting post                     | Visitor will be taken to log in page  |   Works as expected |
 <details><summary>Screenshot</summary>
-<img src="">
+<img src="docs/test/userstory_1.png">
 </details>
 <hr>
 
@@ -1239,7 +1353,7 @@ refresh-toc -->
 |            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
 |   Searching for posts      |  Fill out search bar and click *search* button  |   A user will be taken to search page with results underneath  | Works as expected   |
 <details><summary>Screenshot</summary>
-<img src="">
+<img src="docs/test/userstory_1.png">
 </details>
 <hr>
 
@@ -1250,7 +1364,7 @@ refresh-toc -->
 |   Searching for posts      |  Fill out search bar and click *search* button  |  Visitor will not see search bar                | Works as expected   |
 |   Searching for posts      |  Write url for searching                   |  Visitor will be taken to log in page             | Works as expected   |
 <details><summary>Screenshot</summary>
-<img src="">
+<img src="docs/test/userstory_1.png">
 </details>
 <hr>
 
@@ -1262,7 +1376,7 @@ refresh-toc -->
 |            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
 |   Comments underneath posts   |   Click on *read more* button  |  A user will be taken to the post and underneath comments will appear  |  Works as expected  |
 <details><summary>Screenshot</summary>
-<img src="">
+<img src="docs/test/userstory_1.png">
 </details>
 <hr>
 
@@ -1273,7 +1387,7 @@ refresh-toc -->
 |   Comments underneath posts   |   Click on *read more* button  |  Visitor will be taken to register page                |  Works as expected  |
 |   Comments underneath posts   |   Write url for post  | Visitor will be taken to log in page                           |  Works as expected  |
 <details><summary>Screenshot</summary>
-<img src="">
+<img src="docs/test/userstory_1.png">
 </details>
 <hr>
 
@@ -1285,7 +1399,7 @@ refresh-toc -->
 |            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
 |  Comments underneath posts  |    Click on *read more* button  |   A user will be taken to the post and underneath comments will appear  | Works as expected   |
 <details><summary>Screenshot</summary>
-<img src="">
+<img src="docs/test/userstory_1.png">
 </details>
 <hr>
 
@@ -1297,7 +1411,7 @@ refresh-toc -->
 |            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
 |  Form underneath comments |    Fill out form, *submit*    |       After submit user will be taken to top of the page with the newest comment at the top  |   Works as expected |
 <details><summary>Screenshot</summary>
-<img src="">
+<img src="docs/test/userstory_1.png">
 </details>
 <hr>
 
@@ -1314,7 +1428,7 @@ refresh-toc -->
 |  Update post   |  Log in to admin site > click *post* > choose post > update post > *save*  |      Post will be updated           |   Works as expected |
 |  Delete post   |  Log in to admin site > click *post* > choose post > delete post > *delete*  |      Post will be deleted          |   Works as expected |
 <details><summary>Screenshot</summary>
-<img src="">
+<img src="docs/test/userstory_1.png">
 </details>
 <hr>
 
@@ -1327,7 +1441,7 @@ refresh-toc -->
 |  Update comment   |  Log in to admin site > click *comment* > choose comment > update comment > *save*  |      Comment will be updated           |   Works as expected |
 |  Delete comment   |  Log in to admin site > click *comment* > choose comment > delete comment > *delete*  |      Comment will be deleted          |   Works as expected |
 <details><summary>Screenshot</summary>
-<img src="">
+<img src="docs/test/userstory_1.png">
 </details>
 <hr>
 
@@ -1340,7 +1454,7 @@ refresh-toc -->
 |  Update question   |  Log in to admin site > click *question* > choose question > update question > *save*  |      Question will be updated           |   Works as expected |
 |  Delete question   |  Log in to admin site > click *question* > choose question > delete question > *delete*  |      Question will be deleted          |   Works as expected |
 <details><summary>Screenshot</summary>
-<img src="">
+<img src="docs/test/userstory_1.png">
 </details>
 <hr>
 
@@ -1350,7 +1464,7 @@ refresh-toc -->
 |            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
 |  Create post   |              Log in to admin site      |  If user isn't authorized logging in wont be possible  |   Works as expected |
 <details><summary>Screenshot</summary>
-<img src="">
+<img src="docs/test/userstory_1.png">
 </details>
 <hr>
 
@@ -1361,7 +1475,7 @@ refresh-toc -->
 |            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
 | Marking posts with warnings  |   Log in to admin site > click *post* > choose post > in drop down menu choose warning |  Post will be marked with warning  | Works as expected   |
 <details><summary>Screenshot</summary>
-<img src="">
+<img src="docs/test/userstory_1.png">
 </details>
 <hr>
 
@@ -1373,7 +1487,7 @@ refresh-toc -->
 |            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
 |  Search post   |  Log in to admin site > click *post* > search in search bar  |  Relevant post(s) will appear  |   Works as expected |
 <details><summary>Screenshot</summary>
-<img src="">
+<img src="docs/test/userstory_1.png">
 </details>
 <hr>
 
@@ -1381,7 +1495,7 @@ refresh-toc -->
 |            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
 |  Search comment   |  Log in to admin site > click *comment* > search in search bar  |  Relevant comment(s) will appear  |   Works as expected |
 <details><summary>Screenshot</summary>
-<img src="">
+<img src="docs/test/userstory_1.png">
 </details>
 <hr>
 
@@ -1389,7 +1503,7 @@ refresh-toc -->
 |            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
 |  Search question   |  Log in to admin site > click *question* > search in search bar  |  Relevant question(s) will appear  |   Works as expected |
 <details><summary>Screenshot</summary>
-<img src="">
+<img src="docs/test/userstory_1.png">
 </details>
 <hr>
 
@@ -1400,7 +1514,7 @@ refresh-toc -->
 |            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
 |  Add questions  |   Log in to admin site > click *question* > click *add question* > fill out form > if answered it will appear on front end > *save* |   |  Works as expected |
 <details><summary>Screenshot</summary>
-<img src="">
+<img src="docs/test/userstory_1.png">
 </details>
 <hr>
 
