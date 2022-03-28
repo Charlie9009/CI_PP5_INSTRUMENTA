@@ -715,7 +715,19 @@ refresh-toc -->
 
 ### Features left to implement
 
-* 
+* I want to implement a feature for users to update their reviews.
+
+* I want to implement a feature so the admin can answer users questions on question page
+
+* I want to implement a feature for top sellers
+
+* I want to implement a feature for best sellers
+
+* I want to implement a feature so the user can see how many products are in their wishlist on all pages
+
+* I want to implement a feature where if the user makes a purchase with a product from the wishlist it is removed from the wishlist
+
+* I want to implement a feature so the users can have a bigger profile with images and more personal info to give a more personal experience on review fields
 
 ## Technologies used
 
