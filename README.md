@@ -603,8 +603,16 @@ refresh-toc -->
 
 #### CSS
 
-<details><summary>No errors were found on the CSS file when passing through Jigsaw W3 Validator.</summary>
-<img src="docs/validation/css/css_validation.JPG">
+<details><summary>No errors were found on base.css when passing through Jigsaw W3 Validator.</summary>
+<img src="docs/validation/css/base.JPG">
+</details>
+
+<details><summary>No errors were found on checkout.css when passing through Jigsaw W3 Validator.</summary>
+<img src="docs/validation/css/checkout.JPG">
+</details>
+
+<details><summary>No errors were found on profile.css when passing through Jigsaw W3 Validator.</summary>
+<img src="docs/validation/css/profile.JPG">
 </details>
 <hr>
 
