@@ -77,34 +77,67 @@ refresh-toc -->
 
 #### Site Visitor
 
-1. As a Site Visitor I can read news so I can keep up to speed with the world.
+1. As a Site Visitor I can see pictures of instruments when I enter the page so that I know what kind of page I am on.
 
-2. As a Site Visitor I can create an account so that I can interact with the content, add my own content and search for content.
+2. As a Site Visitor I can see music instrument categories so I can find the products I am interested in.
 
-3. As a Site Visitor I can view questions so that I can see what other people have had to say about the site.
+3. As a Site Visitor I can scroll thru a list of products so that I can find the product I want.
+
+4. As a Site Visitor I can click on a product and see information about the product so I can get a better view of the product.
+
+5. As a Site Visitor I can sort products so I can find the product I want.
+
+6. As a Site Visitor I can search for products so I can find the relevant one for me.
+
+7. As a Site Visitor I can add products to a bag so I can see everything I have added.
+
+8. As a Site Visitor I can Update and Delete products in bag so I can Remove products I dont want.
+
+9. As a Site Visitor I can add products to a bag so that I can buy them
+
+10. As a Site Visitor I can buy a product so I can get the product I want.
+
+11. As a Site Visitor I can get an email confirmation so I can feel confident the purchase is ok.
+
+12. As a Site Visitor I can view an order confirmation so I can feel confident everything is ok.
+
+13. As a Site Visitor I can browse the site and get notifications messages so I can know if things are working or not.
+
+14. As a Site Visitor I can click on a button so that I can get to the top of the page quickly.
+
+15. As a Site Visitor I can read reviews so that I can see which products customers are happy with.
+
+16. As a Site Visitor I can create an account so that I can have personal info saved.
 
 #### Site User
 
-4. As a Site User I can create, read, update and delete posts so that I can manage my content.
+17. As a Site User I can log in to my account so that I can save my personal info.
 
-5. As A Site User I can search for posts so I can find the relevant one for me.
+18. As a Site User I can add a product to a wishlist so that I can keep track of products I want.
 
-6. As a Site User I can click on a post and see comments and the post so I can get a better view of the posts.
+19. As a Site User I can delete a product from a wishlist so that I can remove products I dont want.
 
-7. As a Site User I can read comments so that I can get a nuanced view of the news.
+20. As a Site User I can log in to my account so that I can leave reviews.
 
-8. As a Site User I can comment on a post so that I can ask question and be a part of the conversation.
+21. As a Site User I can Delete my Review so that I can change my review or delete it if I want to.
 
+22. As a Site User I can log in to my account so that Ask questions.
+
+23. As a Site User I can view questions so that I can see what other people have had to say about the site.
 
 #### Site owner goals
 
-9. As a Site Admin I can create, read, update and delete posts so that I can manage my content.
+24. As a Site Admin I can add, read, update and delete products so that I can manage the content.
 
-10. As a Site Admin I can mark posts with warnings so that I can keep track of users abusing the page.
+25. As a Site Admin I can see all checkout orders so that I can see what people are buying.
 
-11. As a Site Admin I can search for posts, comments and questions so that I can find what I am interested in.
+26. As a Site Admin I can create, read, update and delete questions so that I can manage my content.
 
-12. As a Site Admin I can answer questions so that users feel included in the site.
+27. As a Site Admin I can create, read, update and delete reviews so that I can manage my content.
+
+28. As a Site Admin I can manage the wishlist so that I can keep track of the wishlists.
+
+29. As a Site Admin I can search for all my content so that I can find what I am interested in.
 
 ### Technical design
 
