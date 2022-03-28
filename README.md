@@ -125,63 +125,195 @@ refresh-toc -->
 * Below you can see the images of the wireframes
 
 <details><summary>index.html</summary>
-<img src="docs/wireframes/index_wireframe.png">
-<img src="docs/wireframes/index_tablet_wireframe.png">
-<img src="docs/wireframes/index_mobile_wireframe.png">
+    <details><summary>desktop</summary>
+        <img src="docs/wireframes/index_desktop.png">
+    </details>
+    <details><summary>tablet</summary>
+        <img src="docs/wireframes/index_tablet.png">
+    </details>
+    <details><summary>mobile</summary>
+        <img src="docs/wireframes/index_mobile.png">
+    </details>
+</details>
+
+<details><summary>add_products.html</summary>
+    <details><summary>desktop</summary>
+        <img src="docs/wireframes/add_products_desktop.png">
+    </details>
+    <details><summary>tablet</summary>
+        <img src="docs/wireframes/add_products_tablet.png">
+    </details>
+    <details><summary>mobile</summary>
+        <img src="docs/wireframes/add_products_mobile.png">
+    </details>
+</details>
+
+<details><summary>edit_products.html</summary>
+    <details><summary>desktop</summary>
+        <img src="docs/wireframes/edit_products_desktop.png">
+    </details>
+    <details><summary>tablet</summary>
+        <img src="docs/wireframes/edit_products_tablet.png">
+    </details>
+    <details><summary>mobile</summary>
+        <img src="docs/wireframes/edit_products_mobile.png">
+    </details>
+</details>
+
+<details><summary>product_detail.html</summary>
+    <details><summary>desktop</summary>
+        <img src="docs/wireframes/product_detail_desktop.png">
+    </details>
+    <details><summary>tablet</summary>
+        <img src="docs/wireframes/product_detail_tablet.png">
+    </details>
+    <details><summary>mobile</summary>
+        <img src="docs/wireframes/product_detail_mobile.png">
+    </details>
+</details>
+
+<details><summary>products.html</summary>
+    <details><summary>desktop</summary>
+        <img src="docs/wireframes/products_desktop.png">
+    </details>
+    <details><summary>tablet</summary>
+        <img src="docs/wireframes/products_tablet.png">
+    </details>
+    <details><summary>mobile</summary>
+        <img src="docs/wireframes/products_mobile.png">
+    </details>
+</details>
+
+<details><summary>questions.html</summary>
+    <details><summary>desktop</summary>
+        <img src="docs/wireframes/questions_desktop.png">
+    </details>
+    <details><summary>tablet</summary>
+        <img src="docs/wireframes/questions_tablet.png">
+    </details>
+    <details><summary>mobile</summary>
+        <img src="docs/wireframes/questions_mobile.png">
+    </details>
+</details>
+
+<details><summary>wishlist.html</summary>
+    <details><summary>desktop</summary>
+        <img src="docs/wireframes/wishlist_desktop.png">
+    </details>
+    <details><summary>tablet</summary>
+        <img src="docs/wireframes/wishlist_tablet.png">
+    </details>
+    <details><summary>mobile</summary>
+        <img src="docs/wireframes/wishlist_mobile.png">
+    </details>
+</details>
+
+<details><summary>bag.html</summary>
+    <details><summary>desktop</summary>
+        <img src="docs/wireframes/bag_desktop.png">
+    </details>
+    <details><summary>tablet</summary>
+        <img src="docs/wireframes/bag_tablet.png">
+    </details>
+    <details><summary>mobile</summary>
+        <img src="docs/wireframes/bag_mobile.png">
+    </details>
+</details>
+
+<details><summary>checkout.html</summary>
+    <details><summary>desktop</summary>
+        <img src="docs/wireframes/checkout_desktop.png">
+    </details>
+    <details><summary>tablet</summary>
+        <img src="docs/wireframes/checkout_tablet.png">
+    </details>
+    <details><summary>mobile</summary>
+        <img src="docs/wireframes/checkout_mobile.png">
+    </details>
+</details>
+
+<details><summary>checkout_success.html</summary>
+    <details><summary>desktop</summary>
+        <img src="docs/wireframes/checkout_success_desktop.png">
+    </details>
+    <details><summary>tablet</summary>
+        <img src="docs/wireframes/checkout_success_tablet.png">
+    </details>
+    <details><summary>mobile</summary>
+        <img src="docs/wireframes/checkout_success_mobile.png">
+    </details>
+</details>
+
+<details><summary>404.html</summary>
+    <details><summary>desktop</summary>
+        <img src="docs/wireframes/404_desktop.png">
+    </details>
+    <details><summary>tablet</summary>
+        <img src="docs/wireframes/404_tablet.png">
+    </details>
+    <details><summary>mobile</summary>
+        <img src="docs/wireframes/404_mobile.png">
+    </details>
+</details>
+
+<details><summary>profile.html</summary>
+    <details><summary>desktop</summary>
+        <img src="docs/wireframes/profile_desktop.png">
+    </details>
+    <details><summary>tablet</summary>
+        <img src="docs/wireframes/profile_tablet.png">
+    </details>
+    <details><summary>mobile</summary>
+        <img src="docs/wireframes/profile_mobile.png">
+    </details>
+</details>
+
+<details><summary>reset_password.html</summary>
+    <details><summary>desktop</summary>
+        <img src="docs/wireframes/reset_password_desktop.png">
+    </details>
+    <details><summary>tablet</summary>
+        <img src="docs/wireframes/reset_password_tablet.png">
+    </details>
+    <details><summary>mobile</summary>
+        <img src="docs/wireframes/reset_password_mobile.png">
+    </details>
 </details>
 
 <details><summary>login.html</summary>
-<img src="docs/wireframes/login_wireframe.png">
-<img src="docs/wireframes/login_tablet_wireframe.png">
-<img src="docs/wireframes/login_mobile_wireframe.png">
+    <details><summary>desktop</summary>
+        <img src="docs/wireframes/login_desktop.png">
+    </details>
+    <details><summary>tablet</summary>
+        <img src="docs/wireframes/login_tablet.png">
+    </details>
+    <details><summary>mobile</summary>
+        <img src="docs/wireframes/login_mobile.png">
+    </details>
 </details>
 
-<details><summary>signout.html</summary>
-<img src="docs/wireframes/signout_wireframe.png">
-<img src="docs/wireframes/signout_tablet_wireframe.png">
-<img src="docs/wireframes/signout_mobile_wireframe.png">
+<details><summary>logout.html</summary>
+    <details><summary>desktop</summary>
+        <img src="docs/wireframes/logout_desktop.png">
+    </details>
+    <details><summary>tablet</summary>
+        <img src="docs/wireframes/logout_tablet.png">
+    </details>
+    <details><summary>mobile</summary>
+        <img src="docs/wireframes/logout_mobile.png">
+    </details>
 </details>
 
-<details><summary>register.html</summary>
-<img src="docs/wireframes/register_wireframe.png">
-<img src="docs/wireframes/register_tablet_wireframe.png">
-<img src="docs/wireframes/register_mobile_wireframe.png">
-</details>
-
-<details><summary>post_create.html</summary>
-<img src="docs/wireframes/post_create_wireframe.png">
-<img src="docs/wireframes/post_create_tablet_wireframe.png">
-<img src="docs/wireframes/post_create_mobile_wireframe.png">
-</details>
-
-<details><summary>post_delete_confirm.html</summary>
-<img src="docs/wireframes/post_delete_confirm_wireframe.png">
-<img src="docs/wireframes/post_delete_confirm_tablet_wireframe.png">
-<img src="docs/wireframes/post_delete_confirm_mobile_wireframe.png">
-</details>
-
-<details><summary>post_detail.html</summary>
-<img src="docs/wireframes/post_detail_wireframe.png">
-<img src="docs/wireframes/post_detail_tablet_wireframe.png">
-<img src="docs/wireframes/post_detail_mobile_wireframe.png">
-</details>
-
-<details><summary>post_update.html</summary>
-<img src="docs/wireframes/post_update_wireframe.png">
-<img src="docs/wireframes/post_update_tablet_wireframe.png">
-<img src="docs/wireframes/post_update_mobile_wireframe.png">
-</details>
-
-<details><summary>question.html</summary>
-<img src="docs/wireframes/question_wireframe.png">
-<img src="docs/wireframes/question_tablet_wireframe.png">
-<img src="docs/wireframes/question_mobile_wireframe.png">
-</details>
-
-<details><summary>search_results.html</summary>
-<img src="docs/wireframes/search_results_wireframe.png">
-<img src="docs/wireframes/search_results_tablet_wireframe.png">
-<img src="docs/wireframes/search_results_mobile_wireframe.png">
+<details><summary>signup.html</summary>
+    <details><summary>desktop</summary>
+        <img src="docs/wireframes/signup_desktop.png">
+    </details>
+    <details><summary>tablet</summary>
+        <img src="docs/wireframes/signup_tablet.png">
+    </details>
+    <details><summary>mobile</summary>
+        <img src="docs/wireframes/signup_mobile.png">
+    </details>
 </details>
 
 ### Database diagram
