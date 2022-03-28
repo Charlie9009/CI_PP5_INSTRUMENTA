@@ -354,6 +354,12 @@ input[name='search']::placeholder {
         padding-bottom: 180px;
     }
 
+    #password-reset-filler {
+        padding-bottom: 80px;
+    }
+
+    /* Bag */
+
     #bag-filler {
         padding-bottom: 50px;
     }
