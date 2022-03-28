@@ -1345,7 +1345,6 @@ refresh-toc -->
 |             Feature           |        Action        |                 Expected result                    |   Actual result     |
 |            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
 |  add to wishlist |  go to product detail > click add to wishlist        |          product now added to wishlist  |   Works as expected |
-
 <details><summary>Screenshot</summary>
 <img src="docs/test/userstory_18.png">
 </details>
@@ -1355,14 +1354,10 @@ refresh-toc -->
 
 |             Feature           |        Action        |                 Expected result                    |   Actual result     |
 |            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
-|  Create posts|  Click on *new post* button                  |          Visitor will not see *new post* button  |   Works as expected |
-|  Read posts|  Click *read more* button to read the hole post | Visitor will be taken to register page  |   Works as expected |
-|  Update posts|  Click on *read more*                       |      Visitor will be taken to register page  |   Works as expected |
-|  Update posts|  Write url for updating post                   |     Visitor will be taken to log in page  |   Works as expected |
-|  Delete posts|  Click on *read more*                           | Visitor will be taken to log in page  |   Works as expected |
-|  Delete posts|  Write url for deleting post                     | Visitor will be taken to log in page  |   Works as expected |
+|  add to wishlist |  wishlist not present in nav                  |          Visitor will not see wishlist button  |   Works as expected |
+|  add to wishlist button |  wishlist button not present in product detail                  |          Visitor will not see wishlist button  |   Works as expected |
 <details><summary>Screenshot</summary>
-<img src="docs/test/userstory_1.png">
+<img src="docs/test/userstory_18_not_logged_in.png">
 </details>
 <hr>
 
