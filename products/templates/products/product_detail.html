@@ -147,12 +147,12 @@
                                 <form class="form" method="POST" action="{% url 'add_review' product.id %}">
                                     {% csrf_token %}
                                     {{ review_form|crispy }}
-                                    <button class="btn btn-dark" type="submit">Add Comment</button>
+                                    <button class="btn btn-dark" type="submit">Add Review</button>
                                 </form>
                             {% else %}
                                 <div>
                                     <!-- Links if not logged in -->
-                                    <p>You cannot comment if you are not logged in</p>
+                                    <p>You cannot leave a review if you are not logged in</p>
                                     <a href="{% url 'account_signup' %}">Sign Up</a>
                                     <a href="{% url 'account_login' %}">Login</a>
                                 </div>

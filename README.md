@@ -1327,8 +1327,9 @@ refresh-toc -->
 <hr>
 
 
-17. As a Site User I can log in to my account so that I can save my personal info. 
-**Requires log in**
+17. As a Site User I can log in to my account so that I can save my personal info.
+
+* **Requires log in**
 
 |             Feature           |        Action        |                 Expected result                    |   Actual result     |
 |            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
@@ -1340,7 +1341,8 @@ refresh-toc -->
 
 
 18. As a Site User I can add a product to a wishlist so that I can keep track of products I want.
-**Requires log in**
+
+* **Requires log in**
 
 |             Feature           |        Action        |                 Expected result                    |   Actual result     |
 |            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
@@ -1362,14 +1364,15 @@ refresh-toc -->
 <hr>
 
 
-5. As A Site User I can search for posts so I can find the relevant one for me.
-**Requires log in**
+19. As a Site User I can delete a product from a wishlist so that I can remove products I dont want.
+
+* **Requires log in**
 
 |             Feature           |        Action        |                 Expected result                    |   Actual result     |
 |            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
-|   Searching for posts      |  Fill out search bar and click *search* button  |   A user will be taken to search page with results underneath  | Works as expected   |
+|   delete from wishlist      |  go to wishlist > click delete from wishlist  |   product will be removed from wishlist  | Works as expected   |
 <details><summary>Screenshot</summary>
-<img src="docs/test/userstory_1.png">
+<img src="docs/test/userstory_19.png">
 </details>
 <hr>
 
@@ -1377,22 +1380,22 @@ refresh-toc -->
 
 |             Feature           |        Action        |                 Expected result                    |   Actual result     |
 |            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
-|   Searching for posts      |  Fill out search bar and click *search* button  |  Visitor will not see search bar                | Works as expected   |
-|   Searching for posts      |  Write url for searching                   |  Visitor will be taken to log in page             | Works as expected   |
+|   delete from wishlist      |  Fill out wishlist url  |  Visitor will be redirected to login page                | Works as expected   |
 <details><summary>Screenshot</summary>
-<img src="docs/test/userstory_1.png">
+<img src="docs/test/userstory_19_not_logged_in.png">
 </details>
 <hr>
 
 
-6. As a Site User I can click on a post and see comments and the post so I can get a better view of the posts.
-**Requires log in**
+20. As a Site User I can log in to my account so that I can leave reviews.
+
+* **Requires log in**
 
 |             Feature           |        Action        |                 Expected result                    |   Actual result     |
 |            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
-|   Comments underneath posts   |   Click on *read more* button  |  A user will be taken to the post and underneath comments will appear  |  Works as expected  |
+|   review underneath product   |   go to product_detail > scroll down > fill out form  |  the review will be posted underneath product  |  Works as expected  |
 <details><summary>Screenshot</summary>
-<img src="docs/test/userstory_1.png">
+<img src="docs/test/userstory_20.png">
 </details>
 <hr>
 
@@ -1400,34 +1403,56 @@ refresh-toc -->
 
 |             Feature           |        Action        |                 Expected result                    |   Actual result     |
 |            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
-|   Comments underneath posts   |   Click on *read more* button  |  Visitor will be taken to register page                |  Works as expected  |
-|   Comments underneath posts   |   Write url for post  | Visitor will be taken to log in page                           |  Works as expected  |
+|   review underneath product   |   go to product_detail > scroll down > fill out form  |  Visitor will not see form  but links to register and sign in |  Works as expected  |
 <details><summary>Screenshot</summary>
-<img src="docs/test/userstory_1.png">
+<img src="docs/test/userstory_20_not_logged_in.png">
 </details>
 <hr>
 
 
-7. As a Site User I can read comments so that I can get a nuanced view of the news.
-**Requires log in**
+21. As a Site User I can Delete my Review so that I can change my review or delete it if I want to.
+
+* **Requires log in**
 
 |             Feature           |        Action        |                 Expected result                    |   Actual result     |
 |            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
-|  Comments underneath posts  |    Click on *read more* button  |   A user will be taken to the post and underneath comments will appear  | Works as expected   |
+|  delete review  |   click on delete review  |   review will be removed  | Works as expected   |
 <details><summary>Screenshot</summary>
-<img src="docs/test/userstory_1.png">
+<img src="docs/test/userstory_21.png">
+</details>
+<hr>
+
+* **If not logged in**
+
+|             Feature           |        Action        |                 Expected result                    |   Actual result     |
+|            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
+|   delete review   |   click on delete review  |  Visitor will not see delete review button |  Works as expected  |
+<details><summary>Screenshot</summary>
+<img src="docs/test/userstory_21_not_logged_in.png">
 </details>
 <hr>
 
 
-8. As a Site User I can comment on a post so that I can ask question and be a part of the conversation.
-**Requires log in**
+22. As a Site User I can log in to my account so that I can Ask questions.
+
+* **Requires log in**
 
 |             Feature           |        Action        |                 Expected result                    |   Actual result     |
 |            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
 |  Form underneath comments |    Fill out form, *submit*    |       After submit user will be taken to top of the page with the newest comment at the top  |   Works as expected |
 <details><summary>Screenshot</summary>
 <img src="docs/test/userstory_1.png">
+</details>
+<hr>
+
+
+* **If not logged in**
+
+|             Feature           |        Action        |                 Expected result                    |   Actual result     |
+|            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
+|   delete review   |   click on delete review  |  Visitor will not see delete review button |  Works as expected  |
+<details><summary>Screenshot</summary>
+<img src="docs/test/userstory_21_not_logged_in.png">
 </details>
 <hr>
 
