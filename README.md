@@ -121,7 +121,7 @@ refresh-toc -->
 
 21. As a Site User I can Delete my Review so that I can change my review or delete it if I want to.
 
-22. As a Site User I can log in to my account so that Ask questions.
+22. As a Site User I can log in to my account so that I can Ask questions.
 
 23. As a Site User I can view questions so that I can see what other people have had to say about the site.
 
@@ -453,11 +453,9 @@ refresh-toc -->
     8. As a Site Visitor I can Update and Delete products in bag so I can Remove products I dont want.
 <hr>
 
-* **Admin Crud**
+* **Add, Buy products**
 
-**Requires superuser**
-
-* A feature was implemented so the admin can manage the content on the page
+* A feature was implemented so users can add and buy products
 <br>
 <img src="docs/features/feature_add_to_bag.JPG">
 
@@ -467,51 +465,253 @@ refresh-toc -->
     7. As a Site Visitor I can add products to a bag so I can see everything I have added.
 <hr>
 
-* **Admin Warning**
+* **Buy Product**
 
-**Requires superuser**
-
-* A feature was implemented so the admin can mark posts with warnings to keep track of abusing users
+* A feature was implemented so the user can buy a product.
 <br>
-<img src="docs/features/feature_admin_warning.png">
+<img src="docs/features/feature_buy_product.JPG">
 
 ### User stories covered by this feature:
 
     10. As a Site Visitor I can buy a product so I can get the product I want.
 <hr>
 
-* **Admin Search**
+* **Email Confirmation**
 
-**Requires superuser**
-
-* A feature was implemented so the admin can search for posts
+* A feature was implemented so the user gets an email when completing an order.
 <br>
-<img src="docs/features/feature_admin_search.png">
+<img src="docs/features/feature_email_confirmation.JPG">
 
 ### User stories covered by this feature:
 
-    11. 
+    11. As a Site Visitor I can get an email confirmation so I can feel confident the purchase is ok.
+<hr>
+
+* **Order Confirmation**
+
+* A feature was implemented so the user gets an order confirmation when completing an order.
+<br>
+<img src="docs/features/feature_order_confirmation.JPG">
+
+### User stories covered by this feature:
+
+    12. As a Site Visitor I can view an order confirmation so I can feel confident everything is ok.
+<hr>
+
+* **Notifications**
+
+* A feature was implemented so the user gets notifications.
+<br>
+<img src="docs/features/feature_notifications.JPG">
+
+### User stories covered by this feature:
+
+    13. As a Site Visitor I can browse the site and get notifications messages so I can know if things are working or not.
+<hr>
+
+* **Back to top button**
+
+* A feature was implemented so the user can get to the top of the products page when browsing the site.
+<br>
+<img src="docs/features/feature_back_to_top.JPG">
+
+### User stories covered by this feature:
+
+    14. As a Site Visitor I can click on a button so that I can get to the top of the page quickly.
+<hr>
+
+* **Read Reviews**
+
+* A feature was implemented so the user can read reviews.
+<br>
+<img src="docs/features/feature_read_reviews.JPG">
+
+### User stories covered by this feature:
+
+    15. As a Site Visitor I can read reviews so that I can see which products customers are happy with.
+<hr>
+
+* **Account creation**
+
+* A feature was implemented so the user can create an account.
+<br>
+<img src="docs/features/feature_signup_account.JPG">
+
+### User stories covered by this feature:
+
+    16. As a Site Visitor I can create an account so that I can have personal info saved.
+<hr>
+
+* **Personal Info**
+
+    **Requires LOGIN**
+
+* A feature was implemented so the user can save their info.
+<br>
+<img src="docs/features/feature_create_account.JPG">
+
+### User stories covered by this feature:
+
+    17. As a Site User I can log in to my account so that I can save my personal info.
+<hr>
+
+* **Wishlist**
+
+    **Requires LOGIN**
+
+* A feature was implemented so the user can add a product to a wishlist.
+<br>
+<img src="docs/features/feature_add_to_wishlist.JPG">
+
+### User stories covered by this feature:
+
+    18. As a Site User I can add a product to a wishlist so that I can keep track of products I want.
+<hr>
+
+* **Delete from wishlist**
+
+    **Requires LOGIN**
+
+* A feature was implemented so the user can delete a product from a wishlist.
+<br>
+<img src="docs/features/feature_delete_from_wishlist.JPG">
+
+### User stories covered by this feature:
+
+    19. As a Site User I can delete a product from a wishlist so that I can remove products I dont want.
+<hr>
+
+* **Leave Reviews**
+
+    **Requires LOGIN**
+
+* A feature was implemented so the user can leave reviews.
+<br>
+<img src="docs/features/feature_add_review.JPG">
+
+### User stories covered by this feature:
+
+    20. As a Site User I can log in to my account so that I can leave reviews.
+<hr>
+
+* **Delete Review**
+
+    **Requires LOGIN**
+
+* A feature was implemented so the user can delete their review.
+<br>
+<img src="docs/features/feature_delete_review.JPG">
+
+### User stories covered by this feature:
+
+    21. As a Site User I can Delete my Review so that I can change my review or delete it if I want to.
+<hr>
+
+* **Ask Questions**
+
+    **Requires LOGIN**
+
+* A feature was implemented so the user can ask questions.
+<br>
+<img src="docs/features/feature_add_question.JPG">
+
+### User stories covered by this feature:
+
+    22. As a Site User I can log in to my account so that I can Ask questions.
+<hr>
+
+* **View Questions**
+
+    **Requires LOGIN**
+
+* A feature was implemented so the user view questions.
+<br>
+<img src="docs/features/feature_view_question.JPG">
+
+### User stories covered by this feature:
+
+    23. As a Site User I can view questions so that I can see what other people have had to say about the site.
+<hr>
+
+* **Admin Products**
+
+    **Requires SUPERUSER**
+
+* A feature was implemented so the admin can easily update, add and delete products from the site.
+<br>
+<img src="docs/features/feature_add_product_admin.JPG">
+<img src="docs/features/feature_edit_product_admin.JPG">
+<img src="docs/features/feature_delete_product_admin.JPG">
+
+### User stories covered by this feature:
+
+    24. As a Site Admin I can add, read, update and delete products so that I can manage the content.
+<hr>
+
+* **Admin Checkout**
+
+    **Requires SUPERUSER**
+
+* A feature was implemented so the admin can see orders from the admin page.
+<br>
+<img src="docs/features/feature_checkout_admin.JPG">
+
+### User stories covered by this feature:
+
+    25. As a Site Admin I can see all checkout orders so that I can see what people are buying.
 <hr>
 
 * **Admin Questions**
 
-**Requires superuser**
+    **Requires SUPERUSER**
 
-* A feature was implemented so the admin can answer and post questions
+* A feature was implemented so the admin can control the questions.
 <br>
-<img src="docs/features/feature_admin_question.JPG">
+<img src="docs/features/feature_questions_admin.JPG">
 
 ### User stories covered by this feature:
 
-    5. 
-    11. 
+    26. As a Site Admin I can create, read, update and delete questions so that I can manage my content.
 <hr>
 
+* **Admin Reviews**
 
+    **Requires SUPERUSER**
 
+* A feature was implemented so the admin can control the reviews.
+<br>
+<img src="docs/features/feature_review_admin.JPG">
 
-**Requires SUPERUSER**
-**Requires LOGIN**
+### User stories covered by this feature:
+
+    27. As a Site Admin I can create, read, update and delete reviews so that I can manage my content.
+<hr>
+
+* **Admin Wishlist**
+
+    **Requires SUPERUSER**
+
+* A feature was implemented so the admin can control the wishlists.
+<br>
+<img src="docs/features/feature_wishlist_admin.JPG">
+
+### User stories covered by this feature:
+
+    28. As a Site Admin I can manage the wishlist so that I can keep track of the wishlists.
+<hr>
+
+* **Admin Search**
+
+    **Requires SUPERUSER**
+
+* Features was implemented so the admin can control the site.
+<br>
+## See admin features
+
+### User stories covered by this feature:
+
+    29. As a Site Admin I can search for all my content so that I can find what I am interested in.
+<hr>
 
 ### Features left to implement
 
