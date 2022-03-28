@@ -750,8 +750,24 @@ refresh-toc -->
 
 #### Javascript
 
-<details><summary>No errors were found on news.js when passing through jshint.</summary>
-<img src="docs/validation/javascript/news_validation.JPG">
+<details><summary>No errors were found on bag.js when passing through jshint.</summary>
+<img src="docs/validation/javascript/bag.JPG">
+</details>
+
+<details><summary>No errors were found on emailjs.js when passing through jshint.</summary>
+<img src="docs/validation/javascript/emailjs.JPG">
+</details>
+
+<details><summary>No errors were found on products.js when passing through jshint.</summary>
+<img src="docs/validation/javascript/products.JPG">
+</details>
+
+<details><summary>No errors were found on profile.js when passing through jshint.</summary>
+<img src="docs/validation/javascript/profile.JPG">
+</details>
+
+<details><summary>No errors were found on stripe_elements.js when passing through jshint.</summary>
+<img src="docs/validation/javascript/stripe_elements.JPG">
 </details>
 <hr>
 
