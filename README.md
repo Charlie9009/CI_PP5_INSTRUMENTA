@@ -125,7 +125,7 @@ refresh-toc -->
 
 23. As a Site User I can view questions so that I can see what other people have had to say about the site.
 
-#### Site owner goals
+#### Site Admin goals
 
 24. As a Site Admin I can add, read, update and delete products so that I can manage the content.
 
@@ -352,12 +352,12 @@ refresh-toc -->
 ### Database diagram
 
 * The database has multiple models;
-    * 
+    * **Wishlist** / Custom model
     * **Review** / Custom model
     * **Question** / Custom model
 
 
-* Question does not have any relationship with the other models.
+* 
 <details><summary>Database Diagram</summary>
 <img src="docs/database_diagram/database_diagram.JPG">
 </details>
