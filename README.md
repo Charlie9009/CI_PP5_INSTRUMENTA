@@ -1,10 +1,10 @@
 # Instrumenta
 
-<img src="">
+<img src="docs/mockups/mockups.png">
 
 <hr>
 
-## Welcome to my Site [Instrumenta]()!
+## Welcome to my Site [Instrumenta](https://instrumenta.herokuapp.com/)!
 
 <br>
 
@@ -110,11 +110,11 @@ refresh-toc -->
 
 ### Design
 
-* 
+* A big part of my design inspiration came from the music site [Thomann](https://www.thomann.de/se/index.html). I also looked a lot on [Gear4music](https://www.gear4music.se/sv/). I also got a lot of inspiration and help from the study material *Boutique Ado* from [Code Institute](https://codeinstitute.net/se/).
 
 #### Colors
 
-* For the colors I wanted a more sophisticated clean look, after some googling I found [visme](https://visme.co/blog/website-color-schemes/) and number 7 on the list caught my attention. I took that as a starting point and experimented a bit.
+* For the colors I wanted a grounded and basic look, letting the instruments speak for the page. Based on that i went with a white background with banners marking of some parts with stronger grey colors.
 
 #### Fonts
 
