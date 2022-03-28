@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://instrumenta.herokuapp.com/</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/accounts/signup/</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/accounts/login/</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/bag/</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/products/</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/products/?category=acousticguitar</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/products/?category=electricguitar</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/products/?category=acousticguitar,electricguitar</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/products/?category=acousticdrums</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/products/?category=digitaldrums</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/products/?category=acousticdrums,digitaldrums</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/products/?category=acousticpiano</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/products/?category=digitalpiano</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/products/?category=acousticpiano,digitalpiano</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/products/?category=software</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/products/?category=dynamicmicrophone</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/products/?category=condensormicrophone</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/products/?category=dynamicmicrophone,condensormicrophone</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/products/?category=strings</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/products/?category=speakers</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/products/?category=audiointerface</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/products/?category=speakers,audiointerface</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/products/?category=instrumentwires</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/products/?category=microphonewires</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/products/?category=instrumentwires,microphonewires</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/products/?category=accessories</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/accounts/password/reset/</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/products/13/</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/products/5/</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/products/4/</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/products/3/</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/products/2/</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/products/12/</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/products/14/</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/products/15/</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/products/16/</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/products/17/</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/products/18/</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/13/</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/5/</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/4/</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/3/</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/2/</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/12/</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/14/</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/15/</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/16/</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/17/</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/18/</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F13%2F</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F5%2F</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F4%2F</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F3%2F</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F2%2F</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F12%2F</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F14%2F</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F15%2F</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F16%2F</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F17%2F</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F18%2F</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/accounts/login/?next=%2Fwishlist%2Fadd_to_wishlist%2F13%2F</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/accounts/login/?next=%2Fwishlist%2Fadd_to_wishlist%2F5%2F</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/accounts/login/?next=%2Fwishlist%2Fadd_to_wishlist%2F4%2F</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/accounts/login/?next=%2Fwishlist%2Fadd_to_wishlist%2F3%2F</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/accounts/login/?next=%2Fwishlist%2Fadd_to_wishlist%2F2%2F</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/accounts/login/?next=%2Fwishlist%2Fadd_to_wishlist%2F12%2F</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/accounts/login/?next=%2Fwishlist%2Fadd_to_wishlist%2F14%2F</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/accounts/login/?next=%2Fwishlist%2Fadd_to_wishlist%2F15%2F</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/accounts/login/?next=%2Fwishlist%2Fadd_to_wishlist%2F16%2F</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/accounts/login/?next=%2Fwishlist%2Fadd_to_wishlist%2F17%2F</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://instrumenta.herokuapp.com/accounts/login/?next=%2Fwishlist%2Fadd_to_wishlist%2F18%2F</loc>
+  <lastmod>2022-03-28T17:16:44+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+
+
+</urlset>
