@@ -55,7 +55,9 @@ refresh-toc -->
 
     7. [Further testing](#further-testing)
 
-    8. [Testing user stories](#testing-user-stories)
+    8. [SEO](#seo)
+
+    9. [Testing user stories](#testing-user-stories)
 
 6. [Bugs](#bugs)
 
@@ -67,7 +69,7 @@ refresh-toc -->
 
 ## Project goals
 
-* The goal of this project is for the site owner to practice Django and implement a working ecommerce site.
+* The goal of this project is for the site owner to practice Django and implement a working ecommerce site. Also selling high quality instrument and studio equipment for experienced musicians and beginners.
 
 ## User experience
 
@@ -1198,6 +1200,24 @@ refresh-toc -->
 * I have tested the website on One Plus 8T
 
 * Friends and family has been asked to review the site.
+
+## SEO
+
+* In the beginning of the project I made a small plan of what I thought user might want.
+<details><summary>Small site plan</summary>
+<img src="docs/seo/seo_2.JPG">
+<img src="docs/seo/seo_3.JPG">
+</details>
+
+* For the keywords I looked at some phrases and words, I used [wordtracker](https://www.wordtracker.com/) to find some keywords with popularity and wasn’t to used.
+<details><summary>SEO</summary>
+<img src="docs/seo/seo.JPG">
+<img src="docs/seo/seo_4.JPG">
+<img src="docs/seo/seo_5.JPG">
+<img src="docs/seo/seo_6.JPG">
+<img src="docs/seo/seo_7.JPG">
+</details>
+
 
 ## Testing user stories
 
