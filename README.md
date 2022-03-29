@@ -59,11 +59,13 @@ refresh-toc -->
 
     9. [Testing user stories](#testing-user-stories)
 
-6. [Bugs](#bugs)
+6. [API](#api)
 
-7. [Deployment](#deployment)
+7. [Bugs](#bugs)
 
-8. [Credit](#credit)
+8. [Deployment](#deployment)
+
+9. [Credit](#credit)
 
     1. [Acknowledgement](#acknowledgement)
 
@@ -824,14 +826,6 @@ refresh-toc -->
 * [Database diagrams](https://app.quickdatabasediagrams.com/)
 
 * [EmailJS](https://www.emailjs.com/) was used to hook up an email service for the sites newsletter.
-
-    * Create an account on EmailJS
-
-    * Add a new email service.
-
-    * Create an email template with the wanted variables.
-
-    * Add a link to js and add Javascript in the emailjs.js.
 
 
 ## Testing
@@ -1663,6 +1657,55 @@ refresh-toc -->
 <img src="docs/test/userstory_30.png">
 </details>
 <hr>
+
+## API
+
+* Gmail SMTP
+
+    1. Create google account
+
+    2. Go to account settings, click accounts and import, other google account settings
+
+    3. Go to security and click 2-step verification
+
+    4. Get started, enter password and select verification method and verify
+
+    5. Click app passwords, login again
+
+    6. Select mail, device type and enter the name you want
+
+    7. Copy password
+
+    * Add variables to env and heroku
+
+    8. Add variable EMAIL_HOST_PASS with the password
+
+    9. Add variable EMAIL_HOST_USER with your email as value
+
+    10. Add following variables to settings.py
+
+    * if 'DEVELOPMENT' in os.environ:
+        * EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+        * DEFAULT_FROM_EMAIL = 'instrumenta@example.com'
+    * else:
+        * EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+        * EMAIL_USE_TLS = True
+        * EMAIL_PORT = 587
+        * EMAIL_HOST = 'smtp.gmail.com'
+        * EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')
+        * EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASS')
+        * DEFAULT_FROM_EMAIL = os.environ.get('EMAIL_HOST_USER')
+
+
+* EmailJS
+
+    1. Create an account on EmailJS
+
+    2. Add a new email service.
+
+    3. Create an email template with the wanted variables.
+
+    4. Add a link to js and add Javascript in the emailjs.js.
 
 
 ## Bugs
