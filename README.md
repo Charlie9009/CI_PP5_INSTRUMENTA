@@ -31,6 +31,8 @@ refresh-toc -->
 
 3. [Features](#features)
 
+    1. [Facebook](#facebook)
+
 4. [Technologies used](#technologies-used)
 
     1. [Languages](#languages)
@@ -109,6 +111,7 @@ refresh-toc -->
 
 16. As a Site Visitor I can create an account so that I can have personal info saved.
 
+
 #### Site User
 
 17. As a Site User I can log in to my account so that I can save my personal info.
@@ -138,6 +141,11 @@ refresh-toc -->
 28. As a Site Admin I can manage the wishlist so that I can keep track of the wishlists.
 
 29. As a Site Admin I can search for all my content so that I can find what I am interested in.
+
+#### Site visitor (extra stories)
+
+30. As a Site Visitor I can sign up for a newsletter so I can get information on sales.
+
 
 ### Technical design
 
@@ -712,6 +720,28 @@ refresh-toc -->
 
     29. As a Site Admin I can search for all my content so that I can find what I am interested in.
 <hr>
+
+* **News letter**
+
+* Features was implemented so Visitors can sign upp to a newsletter.
+<br>
+<img src="docs/features/feature_newsletter.JPG">
+
+### User stories covered by this feature:
+
+    30. As a Site Visitor I can sign up for a newsletter so I can get information on sales.
+<hr>
+
+### Facebook
+
+<details><summary>I created a facebook page for the Instrumenta web page and linked it to the site.</summary>
+    <img src="docs/facebook/facebook_instrumenta.JPG">
+    <img src="docs/facebook/facebook_instrumenta_2.JPG">
+    <img src="docs/facebook/facebook_instrumenta_3.JPG">
+    <img src="docs/facebook/facebook_instrumenta_4.JPG">
+    <img src="docs/facebook/facebook_instrumenta_5.JPG">
+</details>
+
 
 ### Features left to implement
 
@@ -1571,6 +1601,19 @@ refresh-toc -->
 |  Search   |  Log in to admin site > click model > search in search bar or filter  |  Relevant content will appear  |   Works as expected |
 <details><summary>Screenshot</summary>
 <img src="docs/test/userstory_29.png">
+</details>
+<hr>
+
+
+30. As a Site Visitor I can sign up for a newsletter so I can get information on sales.
+
+* **Requires admin**
+
+|             Feature           |        Action        |                 Expected result                    |   Actual result     |
+|            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
+|  newsletter   |  on any site scroll down to footer > fill out email > click signup  |  visitor will get an email  |   Works as expected |
+<details><summary>Screenshot</summary>
+<img src="docs/test/userstory_30.png">
 </details>
 <hr>
 
