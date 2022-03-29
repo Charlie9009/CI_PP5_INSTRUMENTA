@@ -825,6 +825,15 @@ refresh-toc -->
 
 * [EmailJS](https://www.emailjs.com/) was used to hook up an email service for the sites newsletter.
 
+    * Create an account on EmailJS
+
+    * Add a new email service.
+
+    * Create an email template with the wanted variables.
+
+    * Add a link to js and add Javascript in the emailjs.js.
+
+
 ## Testing
 
 ### Validator testing
@@ -1705,7 +1714,7 @@ refresh-toc -->
 
 1. Use **pip3 freeze > requirements.txt** in terminal to save libraries that needs to be installed on Heroku as well.
 
-2. Create **Procfile** and add **web: gunicorn newsblog.wsgi**
+2. Create **Procfile** and add **web: gunicorn instrumenta.wsgi**
 
 3. Log in to Heroku.
 
@@ -1750,6 +1759,79 @@ refresh-toc -->
 7. In your terminal type now type “Git clone” followed by the repository you copied.
 8. Press Enter.
 9. Done.
+
+### [AWS](https://aws.amazon.com/) File storage
+
+1. Create AWS account
+
+2. Click AWS management console
+
+3. Search for service S3
+
+4. Create Bucket
+
+5. Choose name
+
+6. Uncheck block public access and acknowledge bucket public access
+
+7. Create bucket
+
+8. Click bucket
+
+9. In properties tab, turn on static website hosting and set index.html and error.html
+
+10. In permissions tab, go to CORS config and set the following configuration
+<br>
+<img src="docs/test/cors.JPG">
+
+11. Go to permissions and click generate policy generator.
+
+12. Select S3 bucket policy, principal: *, AWS service: amazon s3, actions: getobject, copy the bucket policy editor ARN and paste it in the ARN.
+
+13. Add statement, generate policy and copy the policy into the bucket policy editor, add a slash star at the end of resourse and save.
+
+14. In permissions choose Access control list and edit, then check box public access.
+
+15. Go to *services* choose IAM.
+
+16. Create user group and choose name.
+
+17. Create new policy
+
+18. Import policy AmazonS3FullAccess, get the bucket ARN from S3 and copy it into JSON: resource as a list, one as is and one with a trailing /*.
+
+19. Give policy a name and description and create policy.
+
+20. Under permissions click user groups and click attach policies, select the choosen policy and add permissions.
+
+21. Go to users, create user, give programmatic access and add to group.
+
+22. Download csv file and hook up access keys to env and heroku.
+
+23. Install boto3 and django-storages to the project 
+
+24. Then add the following to settings.py
+
+<img src="docs/test/aws.JPG">
+
+
+### [Stripe](https://stripe.com/se) Payment
+
+1. Create an account
+
+2. Go to developers
+
+3. Then API keys
+
+4. Copy Publishable key and Secret key to env in project and Heroku
+
+5. Go to Webhooks
+
+6. Add endpoint for your url and add /checkout/wh/ at the end
+
+7. Select listeners
+
+8. Copy the webhook secret in to project env and Heroku
 
 ## Credit
 
