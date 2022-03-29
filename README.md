@@ -359,18 +359,30 @@ refresh-toc -->
     </details>
 </details>
 
-### Database diagram
+### Database
 
-* The database has multiple models;
+* Big parts of the database was inspired by the study material **Boutique Ado** from [Code Institute](https://codeinstitute.net/se/)
+* Parts of the project was also built from following the **Boutique Ado** project.
+
+* The database consists of the following models:
+    * **User** / allauth
+    * **UserProfile** / Boutique Ado
+    * **Category** / Boutique Ado
+    * **Product** / Boutique Ado
+    * **Order** / Boutique Ado
+    * **OrderLineItem** / Boutique Ado
     * **Wishlist** / Custom model
     * **Review** / Custom model
     * **Question** / Custom model
-
-
-* 
+    
 <details><summary>Database Diagram</summary>
 <img src="docs/database_diagram/database_diagram.JPG">
 </details>
+
+#### Product Database
+
+* I used a database of instruments from [Kaggle]( https://www.kaggle.com/datasets/lasaljaywardena/music-instrument-images-dataset) and added the products manually to the project.
+
 
 ## Features
 
@@ -1685,7 +1697,7 @@ refresh-toc -->
 
 ### Known bugs
 
-* 
+* There is a bug in both the question form and the review form where the text*Field is required* shows up. 
 
 ## Deployment
 
