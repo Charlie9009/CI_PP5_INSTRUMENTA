@@ -729,6 +729,8 @@ refresh-toc -->
 
 * I want to implement a feature so the users can have a bigger profile with images and more personal info to give a more personal experience on review fields
 
+* I want to implement a feature for the delete buttons to have validation before deleting
+
 ## Technologies used
 
 ### Languages
@@ -1434,14 +1436,16 @@ refresh-toc -->
 
 
 22. As a Site User I can log in to my account so that I can Ask questions.
+23. As a Site User I can view questions so that I can see what other people have had to say about the site.
 
 * **Requires log in**
 
 |             Feature           |        Action        |                 Expected result                    |   Actual result     |
 |            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
-|  Form underneath comments |    Fill out form, *submit*    |       After submit user will be taken to top of the page with the newest comment at the top  |   Works as expected |
+|  form for asking questions |    click questions button > scroll down > fill out form    |     Question will appear top of the screen    |   Works as expected |
+|  page with questions |    click questions button    |     Questions will appear on the screen    |   Works as expected |
 <details><summary>Screenshot</summary>
-<img src="docs/test/userstory_1.png">
+<img src="docs/test/userstory_22.png">
 </details>
 <hr>
 
@@ -1450,114 +1454,126 @@ refresh-toc -->
 
 |             Feature           |        Action        |                 Expected result                    |   Actual result     |
 |            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
-|   delete review   |   click on delete review  |  Visitor will not see delete review button |  Works as expected  |
+|   question button in nav   |   click question button  |  Visitor will not see question button |  Works as expected  |
+|   question url   |   Fill out url  |  Visitor will be redirected to signin page |  Works as expected  |
 <details><summary>Screenshot</summary>
-<img src="docs/test/userstory_21_not_logged_in.png">
+<img src="docs/test/userstory_22_not_logged_in.png">
 </details>
 <hr>
 
 
-9. As a Site Admin I can create, read, update and delete posts, comments and questions so that I can manage my content.
-**Requires superuser**
+24. As a Site Admin I can add, read, update and delete products so that I can manage the content.
 
-* **Post**
+* **Requires admin**
 
 |             Feature           |        Action        |                 Expected result                    |   Actual result     |
 |            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
-|  Create post   |  Log in to admin site > click *post* > *add post* > Fill out form > *save*  |  Post will appear at the top of the home site  |   Works as expected |
-|  Read post   |  Log in to admin site > click *post* > choose post |      Whole post will appear           |   Works as expected |
-|  Update post   |  Log in to admin site > click *post* > choose post > update post > *save*  |      Post will be updated           |   Works as expected |
-|  Delete post   |  Log in to admin site > click *post* > choose post > delete post > *delete*  |      Post will be deleted          |   Works as expected |
+|  Create product   | click my account > click product management > Fill out form > click add product   |  admin will be redirected to product detail page with new product  |   Works as expected |
+|  Edit product   |  on products page > click edit on a product > edit change > click update product | admin will be redirected to product detail page with updated product    |   Works as expected |
+|  Delete product   |  any product site > click delete  |      product will be deleted          |   Works as expected |
 <details><summary>Screenshot</summary>
-<img src="docs/test/userstory_1.png">
+<img src="docs/test/userstory_24_create.png">
+<img src="docs/test/userstory_24_edit.png">
+<img src="docs/test/userstory_24_delete.png">
 </details>
 <hr>
 
-* **Comment**
+
+* **If not admin**
 
 |             Feature           |        Action        |                 Expected result                    |   Actual result     |
 |            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
-|  Create comment   |  Log in to admin site > click *comment* > *add comment* > Fill out form > *save*  |  Comment will appear at the top of the home site  |   Works as expected |
-|  Read comment   |  Log in to admin site > click *comment* > choose comment |      Whole comment will appear           |   Works as expected |
-|  Update comment   |  Log in to admin site > click *comment* > choose comment > update comment > *save*  |      Comment will be updated           |   Works as expected |
-|  Delete comment   |  Log in to admin site > click *comment* > choose comment > delete comment > *delete*  |      Comment will be deleted          |   Works as expected |
+|  add product url   | Fill out url    |  user will be taken to login page  |   Works as expected |
+|  Edit product url   |  Fill out url    |  user will be taken to login page    |   Works as expected |
+|  Delete product url   |  Fill out url    |  user will be taken to login page          |   Works as expected |
 <details><summary>Screenshot</summary>
-<img src="docs/test/userstory_1.png">
+<img src="docs/test/userstory_24_not_superuser.png">
 </details>
 <hr>
 
-* **Question**
+
+25. As a Site Admin I can see all checkout orders so that I can see what people are buying.
+
+* **Requires admin**
 
 |             Feature           |        Action        |                 Expected result                    |   Actual result     |
 |            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
-|  Create question   |  Log in to admin site > click *question* > *add question* > Fill out form > *save*  |  Question will appear at the top of the home site  |   Works as expected |
-|  Read question   |  Log in to admin site > click *question* > choose question |      Whole question will appear           |   Works as expected |
-|  Update question   |  Log in to admin site > click *question* > choose question > update question > *save*  |      Question will be updated           |   Works as expected |
-|  Delete question   |  Log in to admin site > click *question* > choose question > delete question > *delete*  |      Question will be deleted          |   Works as expected |
+|  Checkout admin   |  Log in to admin site > click orders  |  orders will appear  |   Works as expected |
 <details><summary>Screenshot</summary>
-<img src="docs/test/userstory_1.png">
+<img src="docs/test/userstory_25.png">
 </details>
 <hr>
 
-* **If not superuser**
+
+26. As a Site Admin I can create, read, update and delete questions so that I can manage my content.
+
+* **Requires admin**
 
 |             Feature           |        Action        |                 Expected result                    |   Actual result     |
 |            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
-|  Create post   |              Log in to admin site      |  If user isn't authorized logging in wont be possible  |   Works as expected |
+|  Create question   |  Log in to admin site > click question > add question > Fill out form > save  |  Question will appear at the top  |   Works as expected |
+|  Read question   |  Log in to admin site > click question > choose question |      Whole question will appear           |   Works as expected |
+|  Update question   |  Log in to admin site > click question > choose question > update question > save  |      Question will be updated           |   Works as expected |
+|  Delete question   |  Log in to admin site > click question > choose question > delete question > delete  |      Question will be deleted          |   Works as expected |
 <details><summary>Screenshot</summary>
-<img src="docs/test/userstory_1.png">
+<img src="docs/test/userstory_26_create.png">
+<img src="docs/test/userstory_26_read.png">
+<img src="docs/test/userstory_26_update.png">
+<img src="docs/test/userstory_26_delete.png">
 </details>
 <hr>
 
-10. As a Site Admin I can mark posts with warnings so that I can keep track of users abusing the page.
-**Requires superuser**
+
+27. As a Site Admin I can create, read, update and delete reviews so that I can manage my content.
+
+* **Requires admin**
 
 |             Feature           |        Action        |                 Expected result                    |   Actual result     |
 |            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
-| Marking posts with warnings  |   Log in to admin site > click *post* > choose post > in drop down menu choose warning |  Post will be marked with warning  | Works as expected   |
+|  Create reviews   |  Log in to admin site > click reviews > add reviews > Fill out form > save  |  reviews will appear at the top  |   Works as expected |
+|  Read reviews   |  Log in to admin site > click reviews > choose reviews |      Whole reviews will appear           |   Works as expected |
+|  Update reviews   |  Log in to admin site > click reviews > choose reviews > update reviews > save  |      reviews will be updated           |   Works as expected |
+|  Delete reviews   |  Log in to admin site > click reviews > choose reviews > delete reviews > delete  |      reviews will be deleted          |   Works as expected |
 <details><summary>Screenshot</summary>
-<img src="docs/test/userstory_1.png">
+<img src="docs/test/userstory_27_create.png">
+<img src="docs/test/userstory_27_read.png">
+<img src="docs/test/userstory_27_update.png">
+<img src="docs/test/userstory_27_delete.png">
 </details>
 <hr>
 
 
-11. As a Site Admin I can search for posts, comments and questions so that I can find what I am interested in.
-**Requires superuser**
+28. As a Site Admin I can manage the wishlist so that I can keep track of the wishlists.
+
+* **Requires admin**
 
 |             Feature           |        Action        |                 Expected result                    |   Actual result     |
 |            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
-|  Search post   |  Log in to admin site > click *post* > search in search bar  |  Relevant post(s) will appear  |   Works as expected |
+|  Create wishlist   |  Log in to admin site > click wishlist > add wishlist > choose user and products > save  |  wishlist will appear at the top  |   Works as expected |
+|  Read wishlist   |  Log in to admin site > click wishlist > choose wishlist |      wishlist will appear and products will be greyed out           |   Works as expected |
+|  Update wishlist   |  Log in to admin site > click wishlist > choose wishlist > update wishlist > save  |      wishlist will be updated           |   Works as expected |
+|  Delete wishlist   |  Log in to admin site > click wishlist > choose wishlist > delete wishlist > delete  |      wishlist will be deleted          |   Works as expected |
 <details><summary>Screenshot</summary>
-<img src="docs/test/userstory_1.png">
+<img src="docs/test/userstory_28_create.png">
+<img src="docs/test/userstory_28_read.png">
+<img src="docs/test/userstory_28_update.png">
+<img src="docs/test/userstory_28_delete.png">
 </details>
 <hr>
+
+
+29. As a Site Admin I can search for all my content so that I can find what I am interested in.
+
+* **Requires admin**
 
 |             Feature           |        Action        |                 Expected result                    |   Actual result     |
 |            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
-|  Search comment   |  Log in to admin site > click *comment* > search in search bar  |  Relevant comment(s) will appear  |   Works as expected |
+|  Search   |  Log in to admin site > click model > search in search bar or filter  |  Relevant content will appear  |   Works as expected |
 <details><summary>Screenshot</summary>
-<img src="docs/test/userstory_1.png">
+<img src="docs/test/userstory_29.png">
 </details>
 <hr>
 
-|             Feature           |        Action        |                 Expected result                    |   Actual result     |
-|            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
-|  Search question   |  Log in to admin site > click *question* > search in search bar  |  Relevant question(s) will appear  |   Works as expected |
-<details><summary>Screenshot</summary>
-<img src="docs/test/userstory_1.png">
-</details>
-<hr>
-
-12. As a Site Admin I can answer questions so that users feel included in the site.
-**Requires superuser**
-
-|             Feature           |        Action        |                 Expected result                    |   Actual result     |
-|            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
-|  Add questions  |   Log in to admin site > click *question* > click *add question* > fill out form > if answered it will appear on front end > *save* |   |  Works as expected |
-<details><summary>Screenshot</summary>
-<img src="docs/test/userstory_1.png">
-</details>
-<hr>
 
 ## Bugs
 
