@@ -781,6 +781,10 @@ refresh-toc -->
 
 * In the future I want to implement another newsletter service, where I can add products, sales and more.
 
+* I want to implement a rating system which is more integrated and updates with the users reviews.
+
+* I want to implement a category system with the questions.
+
 ## Technologies used
 
 ### Languages
@@ -1749,7 +1753,9 @@ refresh-toc -->
 
 ### Known bugs
 
-* There is a bug in both the question form and the review form where the text*Field is required* shows up. 
+* There is a bug in both the question form and the review form where the text*Field is required* shows up.
+
+* There is a bug in the question form where the int number is rendered instead of the string
 
 ## Deployment
 
@@ -1878,6 +1884,8 @@ refresh-toc -->
 
 ## Credit
 
+### A lot of credit goes to [Code Institute](https://codeinstitute.net/se/) as for a lot of the project was based and inspired by the *Boutique Ado* project
+
 ### Numerous videos, sites and articles was used to create this site.
 
 * [This video was used for building rating and comments](https://www.youtube.com/watch?v=OvTs8BMLb7o).<br>
@@ -1885,6 +1893,27 @@ refresh-toc -->
 [This site was used for the checkboxes](https://cdf.9vo.lt/1.11/django.forms.widgets/RadioSelect.html).<br>
 
 * [Form rendering was a help from this site](https://simpleisbetterthancomplex.com/tutorial/2018/11/28/advanced-form-rendering-with-django-crispy-forms.html#custom-crispy-field)
+
+* [This thread was read to figure out indexerror](https://stackoverflow.com/questions/12996387/indexerror-except-doesnt-work-django)
+
+* [This page was read for better understanding of django shortcut functions](https://docs.djangoproject.com/en/4.0/topics/http/shortcuts/)
+
+* [Bootstrap sizing for widths and heights](https://getbootstrap.com/docs/4.0/utilities/sizing/)
+
+* [For the carousel I wanted a bigger contrast between the text and images, this site was a big help](https://www.geeksforgeeks.org/how-to-darken-an-image-using-css/)
+
+* [Issue with overflow was understood with this video](https://www.youtube.com/watch?v=jZarQTqNIeg)
+
+* [For radiobutton in form and having variable in model this site was helful](http://www.learningaboutelectronics.com/Articles/How-to-create-radio-buttons-in-a-Django-form.php)
+
+* The following videos was watched for the review, comments and questions
+<br>
+https://www.youtube.com/watch?v=OvTs8BMLb7o
+<br>
+https://www.youtube.com/watch?v=MZwKoi0wu2Q
+<br>
+https://www.youtube.com/watch?v=OgA0TTKAtqQ&t=944s
+
 
 ## Acknowledgement
 
