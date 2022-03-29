@@ -747,6 +747,8 @@ refresh-toc -->
 
 ### Features left to implement
 
+* In the future I would like to add another product database with better images. For the sake of time issues I used an existing database with instruments which I added manually. The downside is these images where in poor quality.
+
 * I want to implement a feature for users to update their reviews.
 
 * I want to implement a feature so the admin can answer users questions on question page
@@ -762,6 +764,8 @@ refresh-toc -->
 * I want to implement a feature so the users can have a bigger profile with images and more personal info to give a more personal experience on review fields
 
 * I want to implement a feature for the delete buttons to have validation before deleting
+
+* In the future I want to implement another newsletter service, where I can add products, sales and more.
 
 ## Technologies used
 
@@ -806,6 +810,8 @@ refresh-toc -->
 * [Google Fonts](https://fonts.google.com/)
 
 * [Database diagrams](https://app.quickdatabasediagrams.com/)
+
+* [EmailJS](https://www.emailjs.com/) was used to hook up an email service for the sites newsletter.
 
 ## Testing
 
