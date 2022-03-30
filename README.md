@@ -1750,12 +1750,14 @@ refresh-toc -->
     
     **Fix:** I added a parent div for banner under content with classes, **container-fluid** and **w-100**.
 
+* **Bug:** * There was a bug in the question form where the int number was rendered instead of the category string name.
+
+    **Fix:** In question model I changed the numbers to the relevant string categories and changed from an integer field to a Charfield.
+
 
 ### Known bugs
 
 * There is a bug in both the question form and the review form where the text*Field is required* shows up.
-
-* There is a bug in the question form where the int number is rendered instead of the string
 
 ## Deployment
 
