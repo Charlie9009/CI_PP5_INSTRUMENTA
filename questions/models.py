@@ -7,18 +7,19 @@ class Question(models.Model):
     The class for the question model
     """
     QUESTION_CHOICES = [
-        (1, 'Products'),
-        (2, 'Website'),
-        (3, 'Profile'),
-        (4, 'Delivery'),
-        (5, 'Checkout'),
+        ('Products', 'Products'),
+        ('Website', 'Website'),
+        ('Profile', 'Profile'),
+        ('Delivery', 'Delivery'),
+        ('Checkout', 'Checkout'),
     ]
     user = models.ForeignKey(
         User,
         models.CASCADE
     )
-    question_categories = models.IntegerField(
-        default=0,
+    question_categories = models.CharField(
+        max_length=70,
+        default='Products',
         choices=QUESTION_CHOICES
     )
     question_comment = models.TextField(
