@@ -1908,6 +1908,8 @@ refresh-toc -->
 
 * [For radiobutton in form and having variable in model this site was helful](http://www.learningaboutelectronics.com/Articles/How-to-create-radio-buttons-in-a-Django-form.php)
 
+* [This site was used for the question category bug fix](https://dev.to/saidpy/working-with-django-model-choicefield-2km4)
+
 * The following videos was watched for the review, comments and questions
 <br>
 https://www.youtube.com/watch?v=OvTs8BMLb7o
