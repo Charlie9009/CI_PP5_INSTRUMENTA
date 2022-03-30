@@ -27,7 +27,7 @@ refresh-toc -->
 
         1. [Wireframes](#wireframes)
 
-        2. [Database diagram](#database-diagram)
+        2. [Database](#database)
 
 3. [Features](#features)
 
@@ -155,7 +155,9 @@ refresh-toc -->
 
 ### Design
 
-* A big part of my design inspiration came from the music site [Thomann](https://www.thomann.de/se/index.html). I also looked a lot on [Gear4music](https://www.gear4music.se/sv/). I also got a lot of inspiration and help from the study material *Boutique Ado* from [Code Institute](https://codeinstitute.net/se/).
+* This projecy was built on the study material *Boutique Ado* from [Code Institute](https://codeinstitute.net/se/).
+
+* A big part of my design inspiration came from the music site [Thomann](https://www.thomann.de/se/index.html). I also looked a lot on [Gear4music](https://www.gear4music.se/sv/).
 
 #### Colors
 
@@ -363,7 +365,7 @@ refresh-toc -->
 
 ### Database
 
-* Big parts of the database was inspired by the study material **Boutique Ado** from [Code Institute](https://codeinstitute.net/se/)
+* Big parts of the database was inspired **and** by the study material **Boutique Ado** from [Code Institute](https://codeinstitute.net/se/)
 * Parts of the project was also built from following the **Boutique Ado** project.
 
 * The database consists of the following models:
@@ -383,7 +385,7 @@ refresh-toc -->
 
 #### Product Database
 
-* I used a database of instruments from [Kaggle]( https://www.kaggle.com/datasets/lasaljaywardena/music-instrument-images-dataset) and added the products manually to the project.
+* I used a database of images of instruments from [Kaggle]( https://www.kaggle.com/datasets/lasaljaywardena/music-instrument-images-dataset) and added the products manually to the project.
 
 
 ## Features
@@ -830,6 +832,10 @@ refresh-toc -->
 * [Database diagrams](https://app.quickdatabasediagrams.com/)
 
 * [EmailJS](https://www.emailjs.com/) was used to hook up an email service for the sites newsletter.
+
+* [Font Awesome](http://fontawesome.com)
+
+* [Favicon](https://favicon.io/)
 
 
 ## Testing
@@ -1884,21 +1890,21 @@ refresh-toc -->
 
 8. Copy the webhook secret in to project env and Heroku
 
-## Credit
+## **Credit**
 
-### A lot of credit goes to [Code Institute](https://codeinstitute.net/se/) as for a lot of the project was based and inspired by the *Boutique Ado* project
+## A lot of credit goes to [Code Institute](https://codeinstitute.net/se/) as for a lot of the project was based and inspired by the *Boutique Ado* project
 
 ### Numerous videos, sites and articles was used to create this site.
 
-* [This video was used for building rating and comments](https://www.youtube.com/watch?v=OvTs8BMLb7o).<br>
-[This video was also used](https://www.youtube.com/watch?v=MZwKoi0wu2Q).<br>
-[This site was used for the checkboxes](https://cdf.9vo.lt/1.11/django.forms.widgets/RadioSelect.html).<br>
+* [This site was used for the checkboxes](https://cdf.9vo.lt/1.11/django.forms.widgets/RadioSelect.html).<br>
 
 * [Form rendering was a help from this site](https://simpleisbetterthancomplex.com/tutorial/2018/11/28/advanced-form-rendering-with-django-crispy-forms.html#custom-crispy-field)
 
 * [This thread was read to figure out indexerror](https://stackoverflow.com/questions/12996387/indexerror-except-doesnt-work-django)
 
 * [This page was read for better understanding of django shortcut functions](https://docs.djangoproject.com/en/4.0/topics/http/shortcuts/)
+
+* [The Bootstrap page has overall been a huge help with styling](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
 
 * [Bootstrap sizing for widths and heights](https://getbootstrap.com/docs/4.0/utilities/sizing/)
 
@@ -1908,7 +1914,11 @@ refresh-toc -->
 
 * [For radiobutton in form and having variable in model this site was helful](http://www.learningaboutelectronics.com/Articles/How-to-create-radio-buttons-in-a-Django-form.php)
 
+* [This video series was helpful to grasp django functionality more](https://www.youtube.com/watch?v=_ELCMngbM0E)
+
 * [This site was used for the question category bug fix](https://dev.to/saidpy/working-with-django-model-choicefield-2km4)
+
+* [The Django documentation was also helpful throughout the project](https://docs.djangoproject.com/en/4.0/)
 
 * The following videos was watched for the review, comments and questions
 <br>
@@ -1917,8 +1927,12 @@ https://www.youtube.com/watch?v=OvTs8BMLb7o
 https://www.youtube.com/watch?v=MZwKoi0wu2Q
 <br>
 https://www.youtube.com/watch?v=OgA0TTKAtqQ&t=944s
+<br>
+https://www.youtube.com/watch?v=H4QPHLmsZMU
 
 
 ## Acknowledgement
 
-* My Mentor Mo has been invaluable, he pushed me to challenge myself and he was able to provide consistent and helpful feedback throughout my project.
+* I want to thank my Mentor Mo, he pushed me to challenge myself and has had helpful feedback.
+
+* I want to thank my partner for her continued support over the project.
