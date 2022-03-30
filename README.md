@@ -1892,7 +1892,7 @@ refresh-toc -->
 
 ## **Credit**
 
-## A lot of credit goes to [Code Institute](https://codeinstitute.net/se/) as for a lot of the project was based and inspired by the *Boutique Ado* project
+## A lot of credit goes to [Code Institute](https://codeinstitute.net/se/) as for a lot of the project was based, followed and inspired by the *Boutique Ado* project
 
 ### Numerous videos, sites and articles was used to create this site.
 
@@ -1920,7 +1920,7 @@ refresh-toc -->
 
 * [The Django documentation was also helpful throughout the project](https://docs.djangoproject.com/en/4.0/)
 
-* The following videos was watched for the review, comments and questions
+* The following videos was watched for the review, wishlist and questions
 <br>
 https://www.youtube.com/watch?v=OvTs8BMLb7o
 <br>
